@@ -142,6 +142,7 @@
                             <div class="col-md-4">
                                 <div class="service_bx rounded">
                                     <h1>This This is commit form avinish</h1>
+                                    <h2>Ok revived</h2>
                                 </div>
                             </div>
                         </div>
