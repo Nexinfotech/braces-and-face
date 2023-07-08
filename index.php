@@ -141,13 +141,8 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="service_bx rounded">
-                                    <h1>This This is commit form avinish</h1>
-                                    <h2>Ok revived</h2>
-                                    <h1>Hi ritik</h1>
-                                    <!-- oooooooooooooooo -->
-                                    <h1>This is when two people is working at one time................</h1>
-                                    <!-- oooooooooooooooo -->
-                                    <h2>hi avnish</h2>
+                                    
+                                
                                 </div>
                             </div>
                         </div>
