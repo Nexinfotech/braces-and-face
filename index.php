@@ -143,6 +143,7 @@
                                 <div class="service_bx rounded">
                                     <h1>This This is commit form avinish</h1>
                                     <h2>Ok revived</h2>
+                                    <h1>Hi ritik</h1>
                                 </div>
                             </div>
                         </div>
