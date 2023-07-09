@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,13 +7,9 @@
         <meta name="description" content="Welcome to my awesome website!">
         <meta name="keywords" content="awesome, website, cool, amazing">
         <title>Braces & Face</title>
-
         <!-- Header links -->
         <?php include './includes/header-links.php' ?>
-
-
     </head>
-
     <body>
 
         <!-- Navbar start  -->
@@ -25,7 +20,6 @@
         <section class="hero_section">
             <div class="container py-lg-5 py-4">
                 <div class="row py-lg-5">
-
                     <div class="col-md-6">
                         <div class="left_box">
                             <h2>
@@ -38,7 +32,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-md-6">
                         <div class="right_box">
                             <img src="assets/img/hero_img.png" alt="" class="img-fluid">
