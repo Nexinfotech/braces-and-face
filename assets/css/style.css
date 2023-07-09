@@ -7,7 +7,7 @@
 
 :root {
     /* background: #39CABB; */
-    color: #000;
+    --theme-color: #39CABB;
 }
 
 /* scroll bar css start */
@@ -44,6 +44,43 @@
     font-weight: 500;
 }
 
+.book_btn {
+    margin-top: 4rem;
+    border-radius: 46.5px;
+    background: #FFF;
+    padding: 10px 10px;
+    width: 55%;
+    text-align: center;
+}
+
+.book_btn a {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.dent_btn {
+    margin-top: 1rem;
+    border-radius: 46.5px;
+    background: #39cabb;
+    padding: 10px 10px;
+    width: 70%;
+    text-align: center;
+}
+
+.dent_btn a {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+/* btn end  */
 
 /* =======================header section ===========================================  */
 /* top header start */
@@ -197,10 +234,15 @@
     font-weight: 600;
 }
 
+
 .know_more a:hover {
     border-radius: 10px;
     background: #39cabbd7;
     color: #fff;
+}
+
+.extra_padding {
+    padding-bottom: 15rem;
 }
 
 /* services section start */
@@ -219,5 +261,475 @@
     font-size: 1.2rem;
 }
 
+.services_content {
+    position: absolute;
+    left: 0;
+    bottom: -49px;
+    border-radius: 0px 78px 10px 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+}
+
+.s_heading h2 {
+    color: #448C7F;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.s-Para p {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.view_service a {
+    border-radius: 10px;
+    background: #39CABB;
+    color: #fff;
+    padding: 10px 90px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.view_service a:hover {
+    border-radius: 10px;
+    background: #39cabbd7;
+    color: #fff;
+}
+
 /* services section end */
 /* ======================= about us and also service section inside this section section end ===========================================  */
+
+
+
+/* ======================= plan section start ===========================================  */
+
+.plan_section {
+    position: relative;
+    top: -108px;
+    width: 100%;
+    max-height: 650px;
+}
+
+
+.plan_content {
+    position: absolute;
+    top: -47px;
+    width: 100%;
+    height: 100%;
+}
+
+.plan_selection {
+    margin: 10px 0;
+}
+
+.select {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    background: #FFF;
+    border-radius: 64px;
+    padding: 20px 20px;
+}
+
+
+.select select {
+    /* Reset Select */
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    color: #448C7F;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.selection_content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: end;
+    margin-top: 3rem;
+}
+
+/* Custom Select wrapper */
+
+.plan_heading h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 122.5%;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+
+/* ======================= plan section end ===========================================  */
+
+
+/* ======================= Testimonial or our clinic section start ===========================================  */
+
+.testimonial_heading h2 {
+    color: #448C7F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.customer-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 23px 4px rgb(0 0 0 / 25%);
+    border-radius: 8px;
+    margin: 2rem 5rem;
+    padding: 2rem 3rem 3rem;
+    border-radius: 5px;
+    min-height: 430px;
+}
+
+.customer-text p {
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.customer-text span {
+    font-size: 25px;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: #3d3d77;
+}
+
+.customer-slide .customer-text img {
+    width: 51px;
+    padding: 1rem 0rem;
+}
+
+.start_rating {
+    padding: 10px 0;
+}
+
+.customer-slide .owl-carousel .owl-nav button.owl-prev {
+    display: none;
+}
+
+.customer-slide .owl-carousel .owl-nav button.owl-next {
+    display: none;
+}
+
+.customer-slide .owl-theme .owl-dots .owl-dot span {
+    width: 30px;
+    height: 6px;
+    margin: 5px 7px;
+    background: #D8D8D8;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+
+.customer-slide .owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #39CABB;
+}
+
+
+/* ======================= Testimonial or our clinic section end ===========================================  */
+
+
+
+/* =======================  our clinic section start ===========================================  */
+.clinic_heading h1 {
+    color: #448C7F;
+    text-align: center;
+    font-family: Titillium Web;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.clinic_bg {
+    background-image: url(../img/Vector.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 3rem 0;
+}
+
+.clinic_heading {
+    margin-top: 1rem;
+}
+
+.clinic_heading h2 {
+    color: #185C50;
+    font-family: Rufina;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.clinic_txt2 {
+    margin-top: 2rem;
+}
+
+.clinic_heading p {
+    color: #000;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.venue_heading h2 {
+    color: #448C7F;
+    font-family: Titillium Web;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135.9%;
+    text-transform: capitalize;
+}
+
+.venue_details {
+    padding-top: 5rem;
+}
+
+.details_bx {
+    text-align: center;
+}
+
+.venue_para p {
+    color: #000;
+    text-align: center;
+    font-family: Titillium Web;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    text-transform: capitalize;
+}
+
+/* =======================  our clinic section end ===========================================  */
+
+
+/* =======================  Blog section start ===========================================  */
+.blog_heading h2 {
+    color: #448C7F;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.blog_heading p {
+    color: rgba(0, 0, 0, 0.49);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.27px;
+    text-transform: capitalize;
+}
+
+
+.blog_txt {
+    padding: 20px 2px;
+}
+
+.blog_bx {
+    /* padding: 10px; */
+}
+
+.blog_txt h4 {
+    color: #448C7F;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.blog_txt p {
+    color: #737576;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* =======================  Blog section end ===========================================  */
+
+
+
+
+/* =======================  partnership section start ===========================================  */
+
+.partner_heading h2 {
+    color: #39CABB;
+    font-family: Titillium Web;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.partner_card {
+    padding: 25px 45px;
+    border-radius: 20px;
+    background: #D2F3EF;
+}
+
+
+/* =======================  partnership section end ===========================================  */
+
+
+
+
+/* footer section start */
+footer {
+    background: var(--theme-color);
+}
+
+.footer_about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer_para {
+    padding: 20px 0;
+}
+
+.footer_para p {
+    color: #FFF;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0;
+}
+
+
+.footer_social_icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_social_icon span {
+    background: #fff;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_social_icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.footer_social_icon span i {
+    font-size: 1rem;
+}
+
+
+.Footer_links h2 {
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 1.8rem;
+    position: relative;
+    display: inline-block;
+}
+
+.Footer_links h2::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 48%;
+    height: 2px;
+    background-color: #fff;
+}
+
+.Footer_links ul {
+    padding: 0;
+}
+
+.Footer_links ul li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.Footer_links ul li a {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    position: relative;
+}
+
+.Footer_links ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    background: #fff;
+    width: 0%;
+    height: 1px;
+    transition: 0.5s;
+}
+
+.Footer_links ul li a:hover::after {
+    width: 100%;
+}
+
+.copy_right {
+    padding: 10px;
+    text-align: center;
+}
+
+.copy_right p {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.70);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* footer section end */
