@@ -2,15 +2,14 @@
     <header>
         <div class="container">
             <div class="row h-100 align-items-center">
-                <div class="col-md-5 ms-auto">
+                <div class="col-md-9 ms-auto">
                     <div class="top-header">
                         <div class="header_time">
                             <span><i class="fa-solid fa-clock" style="color: #ffffff;"></i> &nbsp; Monday to Friday
                                 &nbsp; &nbsp; 8Am &nbsp; - &nbsp; 9PM</span>
                         </div>
                         <div class="header_location">
-                            <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i> &nbsp; 81 King St Knutsford
-                            Cheshire
+                            <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i> &nbsp; commercial complex, ROSE ICON, 3rd floor , 301, Pimple Saudagar, Pune, Maharashtra 411027
                         </div>
                     </div>
                 </div>
