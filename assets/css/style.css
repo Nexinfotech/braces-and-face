@@ -6,8 +6,7 @@
 }
 
 :root {
-    /* --text-color: #448C7F; */
-    --theme-color: var(--text-color);
+    --theme-color: #39CABB;
 }
 
 /* scroll bar css start */
@@ -73,7 +72,7 @@
 }
 
 .dent_btn:hover {
-    background: var(--text-color)ce;
+    background: #39cabbce;
 }
 
 .dent_btn a {
@@ -232,7 +231,7 @@
 
 .know_more a {
     border-radius: 10px;
-    background: var(--text-color);
+    background: #39CABB;
     color: #fff;
     padding: 10px 60px;
     font-size: 1.3rem;
@@ -242,7 +241,7 @@
 
 .know_more a:hover {
     border-radius: 10px;
-    background: var(--text-color)d7;
+    background: #39cabbd7;
     color: #fff;
 }
 
@@ -296,7 +295,7 @@
 
 .view_service a {
     border-radius: 10px;
-    background: var(--text-color);
+    background: #39CABB;
     color: #fff;
     padding: 10px 90px;
     font-size: 1.5rem;
@@ -305,7 +304,7 @@
 
 .view_service a:hover {
     border-radius: 10px;
-    background: var(--text-color)d7;
+    background: #39cabbd7;
     color: #fff;
 }
 
@@ -456,7 +455,7 @@
 
 .customer-slide .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: var(--text-color);
+    background: #39CABB;
 }
 
 
@@ -602,7 +601,7 @@
 /* =======================  partnership section start ===========================================  */
 
 .partner_heading h2 {
-    color: var(--text-color);
+    color: #39CABB;
     font-family: Titillium Web;
     font-size: 60px;
     font-weight: 700;
