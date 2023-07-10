@@ -147,7 +147,7 @@
                                                 that fit snugly on your teeth and gently reposition them to give you the
                                                 perfect smile. They offer you all the benefits of conventional
                                                 orthodontics and spare you from the inconvenience and awkwardness of
-                                                metal brackets and wires.&nbsp;<a href=""
+                                                metal brackets and wires.&nbsp;<a href="invisalign.php"
                                                     style="color: #448C7F; font-weight:600;">Read More</a>
                                             </p>
                                         </div>
@@ -168,7 +168,7 @@
                                             <p>A dental implant (also known as an endosseous implant or fixture) is a
                                                 prosthesis that interfaces with the bone of the jaw or skull to support
                                                 a dental prosthesis such as a crown, bridge, denture, or facial
-                                                prosthesis or to act as an orthodontic anchor.&nbsp;<a href=""
+                                                prosthesis or to act as an orthodontic anchor.&nbsp;<a href="implant.php"
                                                     style="color: #448C7F; font-weight:600;">Read More</a>
                                             </p>
                                         </div>
@@ -192,7 +192,7 @@
                                                 intrinsic or extrinsic
                                                 color of the tooth enamel. The chemical degradation of the
                                                 chromogens within or on the tooth is termed as bleaching.&nbsp;<a
-                                                    href="" style="color: #448C7F; font-weight:600;">Read More</a>
+                                                    href="whitening.php" style="color: #448C7F; font-weight:600;">Read More</a>
                                             </p>
                                         </div>
                                     </div>
@@ -217,7 +217,7 @@
                                                 If the tooth decay is limited to the first two layers, it can be
                                                 corrected with Filling/ Restoration. In case the tooth decay reaches the
                                                 third layer and causes inflammation or infection of pulp, an RCT or
-                                                Endodontic Treatment is needed.&nbsp;<a href=""
+                                                Endodontic Treatment is needed.&nbsp;<a href="single-sitting.php"
                                                     style="color: #448C7F; font-weight:600;">Read More</a>
                                             </p>
                                         </div>
@@ -241,7 +241,7 @@
                                                 aesthetics in color, position, shape, size, alignment and overall smile
                                                 appearance.Many dentists refer to themselves as "cosmetic dentists"
                                                 regardless of their specific education, specialty, training, and
-                                                experience in this field. &nbsp;<a href=""
+                                                experience in this field. &nbsp;<a href="cosmetic.php"
                                                     style="color: #448C7F; font-weight:600;">Read More</a>
                                             </p>
                                         </div>
@@ -264,7 +264,7 @@
                                                 emergency and also applies to severe infections that can be
                                                 life-threatening.
                                                 We also provide home emergency services that help patients
-                                                to quick pain relief.&nbsp;<a href=""
+                                                to quick pain relief.&nbsp;<a href="/"
                                                     style="color: #448C7F; font-weight:600;">Read More</a>
                                             </p>
                                         </div>
@@ -272,13 +272,13 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row my-md-5">
+                        <!-- <div class="row my-md-5">
                             <div class="col-md-4 m-auto">
                                 <div class="view_service text-center">
                                     <a href="" class="btn">View All Services</a>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </section>
@@ -826,48 +826,7 @@
 
 
         <!-- Partnership section start -->
-        <section>
-            <div>
-                <div class="container py-md-5 py-2">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="partner_heading">
-                                <h2>Accreditations & Partnerships</h2>
-                            </div>
-                        </div>
-                        <div class="col-md-12 py-md-5 py-2">
-                            <div class="row">
-
-                                <div class="col-md-3">
-                                    <div class="partner_card">
-                                        <img src="assets/img/ikea.png" alt="" class="img-fluid">
-                                    </div>
-                                </div>
-
-                                <div class="col-md-3">
-                                    <div class="partner_card">
-                                        <img src="assets/img/fertil.png" alt="" class="img-fluid">
-                                    </div>
-                                </div>
-
-                                <div class="col-md-3">
-                                    <div class="partner_card">
-                                        <img src="assets/img/alrayan.png" alt="" class="img-fluid">
-                                    </div>
-                                </div>
-
-                                <div class="col-md-3">
-                                    <div class="partner_card">
-                                        <img src="assets/img/adnoc.png" alt="" class="img-fluid">
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+       <?php include './includes/partner.php' ?>
         <!-- Partnership section end -->
 
         <!-- Footer -->

@@ -41,6 +41,7 @@
     color: #fff;
     font-size: 1em;
     font-weight: 500;
+    margin-left: 1rem;
 }
 
 .book_btn {
@@ -50,11 +51,31 @@
     padding: 10px 10px;
     width: 55%;
     text-align: center;
+    cursor: pointer;
 }
 
 .book_btn a {
     font-size: 1.5em;
     font-weight: 600;
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.book_btn_for_service_page {
+    border-radius: 46.5px;
+    background: #FFF;
+    padding: 10px 10px;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+.book_btn_for_service_page a {
+    font-size: 1.5em;
+    font-weight: 500;
     color: #000;
     text-decoration: none;
     text-transform: capitalize;
@@ -111,7 +132,7 @@
 
 .navBarLinks a {
     font-size: 1em;
-    font-weight: 500;
+    font-weight: 600;
     color: #000;
 }
 
@@ -747,3 +768,326 @@ footer {
 }
 
 /* footer section end */
+
+
+/* about page css start here  */
+
+/* full body image */
+.f_b_img {
+    background: url(../img/full_b_image.png) no-repeat center center / cover;
+}
+
+
+/* This section is common in all pages */
+
+/* about hero banner section start */
+
+.common_hero_section {
+    background: url(../img/common_bg.png) no-repeat center center / cover;
+    background-color: var(--theme-color);
+    position: relative;
+}
+
+.common_hero_heading h2 {
+    color: #4A6F85;
+    font-family: Rufina;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.common_hero_heading p {
+    color: #FFF;
+    text-align: center;
+    font-family: Titillium Web;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 0px 16rem;
+}
+
+.about_vector {
+    position: absolute;
+    bottom: -135px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    padding-right: 43px;
+}
+
+.about_vector_services {
+    position: absolute;
+    bottom: -275px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    padding-right: 43px;
+}
+
+/* about hero banner section end */
+
+
+
+/* about section start */
+.about_text p {
+    color: #757575;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 38px;
+    text-transform: capitalize;
+    padding-right: 5rem;
+}
+
+
+.about_txt p {
+    color: #757575;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/* about section end */
+
+
+/* mission vision start  */
+
+
+.m_v_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mission {
+    border-radius: 0px 16px 203px 0px;
+    background: #39CABB;
+    width: 40%;
+    padding: 20px 85px 5px 20px;
+    text-align: left;
+}
+
+.vision {
+    border-radius: 16px 0px 0px 203px;
+    background: #39CABB;
+    width: 40%;
+    padding: 20px 10px 5px 50px;
+    text-align: right;
+}
+
+.mission_content h2 {
+    color: #FFF;
+    font-family: Rufina;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    /* padding: 18px 30px; */
+    text-align: right;
+}
+
+.mission_content p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.vision_content h2 {
+    color: #FFF;
+    font-family: Rufina;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    /* padding: 18px 30px; */
+    text-align: left;
+}
+
+.vision_content p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/* mission vision end */
+
+
+/* This section is common in all pages */
+
+.section-background {
+    background: url(../img/common_hero.png) no-repeat center center / cover;
+}
+
+
+
+.service_section_heading h2 {
+    color: #448C7F;
+    text-align: center;
+    font-family: Rufina;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 150px;
+    text-transform: capitalize;
+    margin: 5px 0px 70px 0px;
+}
+
+.chsc_heading h2 {
+    color: #448C7F;
+    font-family: Titillium Web;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.chsc_heading p {
+    color: #4E4E4E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.chsc_para p {
+    color: #323232;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 0;
+}
+
+/* This section is common in all pages */
+
+/* common middle section start */
+
+.common_heading h2 {
+    color: #FFF;
+    font-family: Titillium Web;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    /* padding-right: 8rem; */
+}
+
+.common_heading p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 205.023%;
+    letter-spacing: 0.24px;
+}
+
+.appointment_btn {
+    border-radius: 46.5px;
+    background: #FFF;
+    padding: 10px 10px;
+    width: 40%;
+    text-align: center;
+}
+
+.appointment_btn a {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #4C626F;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* common middle section end */
+
+
+/* before after section start */
+.client-review {
+    padding: 5rem 0rem 5rem;
+}
+
+.client-review h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+    line-height: 45px;
+    color: #12ada9;
+}
+
+.client-review .client-slide {
+    padding: 2rem 0rem;
+}
+
+.client-review .client-slide .client-image {
+    border: 3px solid #12ada9;
+    border-radius: 7px;
+    min-height: 250px;
+    display: flex;
+}
+
+.client-review .client-slide .owl-carousel .owl-nav button.owl-prev,
+.client-review .client-slide .owl-carousel .owl-nav button.owl-next {
+    background: 0 0;
+    color: #fff;
+    border: none;
+    padding: 2px 10px 5px 10px !important;
+    font: inherit;
+    position: absolute;
+    top: 32%;
+    font-size: 40px;
+    line-height: 30px;
+    background-color: #12ada9;
+}
+
+.client-review .client-slide .owl-carousel .owl-nav button.owl-prev {
+    left: -55px;
+}
+
+.client-review .client-slide .owl-carousel .owl-nav button.owl-next {
+    right: -55px;
+}
+
+.client-review .owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+
+.client-review .owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #869791;
+}
+
+
+.ba_appoint_btn {
+    padding: 20px 60px;
+    font-size: 25px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 22px;
+    color: #FFF;
+    background: #12ada9;
+}
+
+/* before after section end */
