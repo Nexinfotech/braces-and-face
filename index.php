@@ -264,7 +264,7 @@
                                                 emergency and also applies to severe infections that can be
                                                 life-threatening.
                                                 We also provide home emergency services that help patients
-                                                to quick pain relief.&nbsp;<a href="/"
+                                                to quick pain relief.&nbsp;<a href="mouth-re.php"
                                                     style="color: #448C7F; font-weight:600;">Read More</a>
                                             </p>
                                         </div>

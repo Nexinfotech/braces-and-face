@@ -928,6 +928,7 @@ footer {
 /* mission vision end */
 
 
+
 /* This section is common in all pages */
 
 .section-background {
@@ -967,10 +968,32 @@ footer {
 
 .chsc_para p {
     color: #323232;
-    font-size: 22px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 40px;
+    line-height: 34px;
+    margin: 0;
+}
+
+.floating_sticker {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 5px 4px 63px 0px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    left: 0;
+    top: 29%;
+    transform: translate(-50%, 0%);
+    padding: 15px;
+    width: 150px;
+    height: 160px;
+}
+
+.floating_sticker p {
+    color: #448C7F;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
     margin: 0;
 }
 
@@ -1056,17 +1079,20 @@ footer {
 
 .client-review .client-slide .owl-carousel .owl-nav button.owl-prev {
     left: -55px;
+    display: none;
 }
 
 .client-review .client-slide .owl-carousel .owl-nav button.owl-next {
     right: -55px;
+    display: none;
 }
 
+
 .client-review .owl-theme .owl-dots .owl-dot span {
-    width: 10px;
-    height: 10px;
+    width: 30px;
+    height: 6px;
     margin: 5px 7px;
-    background: #D6D6D6;
+    background: #D8D8D8;
     display: block;
     -webkit-backface-visibility: visible;
     transition: opacity .2s ease;
@@ -1075,7 +1101,11 @@ footer {
 
 .client-review .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #869791;
+    background: #39CABB;
+}
+
+.client-review .owl-theme .owl-dots .owl-dot:hover span {
+    background: rgb(11, 128, 87);
 }
 
 
@@ -1091,3 +1121,17 @@ footer {
 }
 
 /* before after section end */
+
+
+/* meet our team start */
+.meetour h2 {
+    color: #448C7F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/* meet our team end */

@@ -134,6 +134,78 @@
             </section>
             <!-- mission vision section end -->
 
+            <!-- meetour team section start  -->
+            <section>
+                <div style="background-color: #f9f9f9;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="client-review meetour">
+                                    <h2> met our team </h2>
+                                    <div class="client-slide">
+                                        <div class="owl-carousel owl-theme owl-loaded owl-drag" id="carousel4">
+                                            <div class="owl-stage-outer">
+                                                <div class="owl-stage"
+                                                    style="transform: translate3d(-2176px, 0px, 0px); transition: all 0.25s ease 0s; width: 4789px;">
+                                                    <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
+                                                        <div class="item">
+                                                            <div class="client-image">
+                                                                <img src="assets/images/teeth/client-1.jpeg"
+                                                                    class="img-fluid">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
+                                                        <div class="item">
+                                                            <div class="client-image">
+                                                                <img src="assets/images/teeth/client-2.jpeg"
+                                                                    class="img-fluid">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item active"
+                                                        style="width: 425.333px; margin-right: 10px;">
+                                                        <div class="item">
+                                                            <div class="client-image">
+                                                                <img src="assets/images/teeth/client-3.jpeg"
+                                                                    class="img-fluid">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item active"
+                                                        style="width: 425.333px; margin-right: 10px;">
+                                                        <div class="item">
+                                                            <div class="client-image">
+                                                                <img src="assets/images/teeth/client-4.jpeg"
+                                                                    class="img-fluid">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item active"
+                                                        style="width: 425.333px; margin-right: 10px;">
+                                                        <div class="item">
+                                                            <div class="client-image">
+                                                                <img src="assets/images/teeth/client-5.jpeg"
+                                                                    class="img-fluid">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="dent_btn m-0 m-auto w-50">
+                                        <a href="">Book Your Free Appointment Now </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- meetour team section end  -->
+
+
 
 
             <!-- Partnership section start -->
@@ -149,6 +221,26 @@
         <?php include './includes/footer.php' ?>
         <!-- Footer links -->
         <?php include './includes/footer-links.php' ?>
+
+        <script>
+            // owl carousel js
+            $("#carousel4").owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    600: {
+                        items: 2,
+                    },
+                    1000: {
+                        items: 3,
+                    },
+                },
+            });
+        </script>
     </body>
 
 </html>

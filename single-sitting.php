@@ -78,7 +78,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-5">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-4 position-relative text-end">
+                                <span class="floating_sticker">
+                                    <p>Our Dental Implant service is one of the best service</p>
+                                </span>
                                 <img src="assets/img/sitting.png" alt="" class="img-fluid">
                             </div>
                         </div>
@@ -87,16 +91,19 @@
             </section>
             <!-- common hero section end -->
 
+            <!-- common middle section start -->
+            <?php include './includes/common-middle-section.php' ?>
+            <!-- common middle section end -->
 
             <!-- before after section start -->
             <section>
-                <div style="background-color: #f9f9f9;">
+                <div>
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="client-review">
                                     <h2>
-                                        BE INSPIRED BY SOME AMAZING <br class="d-lg-block d-md-none d-sm-none d-none">
+                                        BE INSPIRED BY SOME AMAZING
                                         SMILE TRANSFORMATIONS
                                     </h2>
                                     <div class="client-slide">
@@ -151,9 +158,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="dental-button">
-                                        <a href="" class="ba_appoint_btn">Book Your Free Implant Consultation Now!
-                                        </a>
+                                    <div class="dent_btn m-0 m-auto w-50">
+                                        <a href="">Book Your Free Appointment Now </a>
                                     </div>
                                 </div>
                             </div>
@@ -162,11 +168,6 @@
                 </div>
             </section>
             <!-- before after section end -->
-
-
-            <!-- common middle section start -->
-            <?php include './includes/common-middle-section.php' ?>
-            <!-- common middle section end -->
 
             <!-- Partnership section start -->
             <?php include './includes/partner.php' ?>
