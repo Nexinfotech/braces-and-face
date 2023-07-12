@@ -95,7 +95,7 @@
                             <div class="col-md-1"></div>
                             <div class="col-md-4 position-relative text-end">
                                 <span class="floating_sticker">
-                                    <p>Our Dental Implant service is one of the best service:</p>
+                                    <p>Our invisalign service is one of the best service:</p>
                                 </span>
                                 <img src="assets/img/s-invisalign.png" alt="" class="img-fluid">
                             </div>

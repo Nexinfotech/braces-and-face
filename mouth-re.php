@@ -63,7 +63,7 @@
                                 <div class="common_hero_section_content">
                                     <div class="chsc_heading">
                                         <h2>full mouth rehabilitation </h2>
-                                        <p>Our cosmetic dentistry service is one of the best service:</p>
+                                        <p>Our full mouth rehabilitation service is one of the best service:</p>
                                     </div>
                                     <div class="chsc_para">
                                         <p>A full mouth rehabilitation is a planned procedure to restore a healthy oral
@@ -95,7 +95,7 @@
                             <div class="col-md-1"></div>
                             <div class="col-md-4 position-relative text-end">
                                 <span class="floating_sticker">
-                                    <p>Our Dental Implant service is one of the best service:</p>
+                                    <p>Our full mouth rehabilitation service is one of the best service</p>
                                 </span>
                                 <img src="assets/img/mouth.png" alt="" class="img-fluid">
                             </div>
