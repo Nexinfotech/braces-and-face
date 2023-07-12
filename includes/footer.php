@@ -7,7 +7,7 @@
                 <div class="col-md-4">
                     <div class="footer_about">
                         <div class="footer_logo">
-                            <img src="assets/img/logo.png" alt="" class="img-fluid">
+                            <img src="assets/img/logo_w.png" alt="" class="img-fluid">
                         </div>
                         <div class="footer_para">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies tincidunt

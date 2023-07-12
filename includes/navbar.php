@@ -38,9 +38,9 @@
                         <div class="navbar-nav justify-content-end flex-grow-1 align-items-center navBarLinks">
                             <a class="nav-item nav-link active" aria-current="page" href="index.php">Home</a>
                             <a class="nav-item nav-link" href="about.php">About us</a>
-                            <a class="nav-item nav-link" href="#">Blogs</a>
-                            <a class="nav-item nav-link" href="#">Why Choose us</a>
-                            <a class="nav-item nav-link" href="#">Meet Our Team </a>
+                            <a class="nav-item nav-link" href="blog.php">Blogs</a>
+                            <a class="nav-item nav-link" href="why-c-us.php">Why Choose us</a>
+                            <a class="nav-item nav-link" href="team.php">Meet Our Team </a>
                             <a class="nav-item nav-link" href="#">
                                 <div class="contact_btn"><i class="fa-solid fa-phone" style="color: #ffffff;"></i>
                                     &nbsp; Contact us</div>
