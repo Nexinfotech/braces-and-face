@@ -28,9 +28,6 @@
                                 <h2>blog</h2>
                                 <p>Best, highly qualified clinicians who understand dentistry with holistic approach
                                 </p>
-                                <div class="book_btn_for_service_page">
-                                    <a href="">Book an appointment</a>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -46,7 +43,442 @@
 
 
         <!-- full body section bg image -->
-        <section class="f_b_img">
+        <section style=" background: url(./assets/img/blog_bg.png) no-repeat center center / cover;">
+
+            <!-- blog section row start -->
+            <section>
+                <div class="pt-md-5 pt-3">
+                    <div class="container py-md-5 py-3">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assets/img/blog.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="blog_row">
+                                    <div class="b_heading">
+                                        <h5>Category Name</h5>
+                                    </div>
+                                    <div class="b_sheading">
+                                        <h2>Blog & News Update</h2>
+                                    </div>
+                                    <div class="b_para">
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio minus, neque
+                                            fugit laborum placeat quo magni inventore, facere, sunt sint minima aliquam
+                                            fugit laborum placeat quo magni inventore, facere, sunt sint minima aliquam
+                                            fugit laborum placeat quo magni inventore, facere, sunt sint minima aliquam
+                                            iste accusantium! Odit animi minus aut molestias provident doloremque
+                                            suscipit
+                                            voluptas iusto illo quidem. Voluptas, corrupti cumque! &nbsp; <a
+                                                href="blog_view.php" style="color: #448C7F; font-weight:600;">Read
+                                                More</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- blog section row end -->
+
+            <!-- blog list section start -->
+            <section>
+                <div class="pt-md-5 pt-3">
+                    <div class="container py-md-5 py-3">
+                        <div class="row">
+
+                            <div class="col-md-4 order-1">
+                                <div class="side_bar_container">
+                                    <div class="side_bar_heading">
+                                        <h2>Trending posts</h2>
+                                    </div>
+
+                                    <a class="sidebar">
+                                        <div class="blog_sidebar">
+                                            <div class="sidebr_box">
+                                                <div class="s_para">
+                                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                                                        nihil
+                                                        iste placeat earum eveniet mollitia hic possimus reprehenderit
+                                                        consectetur eaque!</p>
+                                                </div>
+                                                <div class="s_update">
+                                                    <p>Last updated on 5 Jan 2023</p>
+                                                </div>
+                                                <div class="tag_bx">
+                                                    <div class="tag">Tag goes here</div>
+                                                    <div class="s_tag">Small Tag</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <!--  -->
+
+                                    <a class="sidebar">
+                                        <div class="blog_sidebar">
+                                            <div class="sidebr_box">
+                                                <div class="s_para">
+                                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                                                        nihil
+                                                        iste placeat earum eveniet mollitia hic possimus reprehenderit
+                                                        consectetur eaque!</p>
+                                                </div>
+                                                <div class="s_update">
+                                                    <p>Last updated on 5 Jan 2023</p>
+                                                </div>
+                                                <div class="tag_bx">
+                                                    <div class="tag">Tag goes here</div>
+                                                    <div class="s_tag">Small Tag</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <!--  -->
+
+                                    <a class="sidebar">
+                                        <div class="blog_sidebar">
+                                            <div class="sidebr_box">
+                                                <div class="s_para">
+                                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                                                        nihil
+                                                        iste placeat earum eveniet mollitia hic possimus reprehenderit
+                                                        consectetur eaque!</p>
+                                                </div>
+                                                <div class="s_update">
+                                                    <p>Last updated on 5 Jan 2023</p>
+                                                </div>
+                                                <div class="tag_bx">
+                                                    <div class="tag">Tag goes here</div>
+                                                    <div class="s_tag">Small Tag</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+
+
+                                    <!--  -->
+
+                                    <!--  -->
+
+                                    <a class="sidebar">
+                                        <div class="blog_sidebar">
+                                            <div class="sidebr_box">
+                                                <div class="s_para">
+                                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                                                        nihil
+                                                        iste placeat earum eveniet mollitia hic possimus reprehenderit
+                                                        consectetur eaque!</p>
+                                                </div>
+                                                <div class="s_update">
+                                                    <p>Last updated on 5 Jan 2023</p>
+                                                </div>
+                                                <div class="tag_bx">
+                                                    <div class="tag">Tag goes here</div>
+                                                    <div class="s_tag">Small Tag</div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </a>
+
+                                    <!--  -->
+
+                                    <div class="social_links_blog">
+                                        <div class="social_heading">
+                                            <h3>FOLLOW US ON SOCIAL </h3>
+                                        </div>
+                                        <div class="social_icon">
+                                            <a href="#">
+                                                <i class="fa-brands fa-facebook" style="color: #39CABB;"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa-brands fa-twitter" style="color: #39CABB;"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fa-brands fa-linkedin" style="color: #39CABB;"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- col 8 -->
+
+                            <div class="col-md-8 border-0">
+                                <div class="row py-md-5 py-2">
+                                    <div class="col-md-4">
+                                        <img src="assets/img/blog-list.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="blog_row">
+                                            <div class="b_l_heading">
+                                                <h5>Category Name</h5>
+                                            </div>
+                                            <div class="b_l_sheading">
+                                                <h2>Blog & News Update</h2>
+                                            </div>
+                                            <div class="b_l_para">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                                                    minus, neque
+                                                    fugit laborum placeat quo magni inventore, facere, sunt sint minima
+                                                    aliquam
+                                                    quod
+                                                    iste accusantium! Odit animi minus aut molestias provident
+                                                    doloremque
+                                                    suscipit
+                                                    voluptas iusto illo quidem. Voluptas, corrupti cumque! &nbsp; <a
+                                                        href="#" style="color: #448C7F; font-weight:600;">Read More</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--  -->
+
+                                <div class="row py-md-5 py-2">
+                                    <div class="col-md-4">
+                                        <img src="assets/img/blog-list.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="blog_row">
+                                            <div class="b_l_heading">
+                                                <h5>Category Name</h5>
+                                            </div>
+                                            <div class="b_l_sheading">
+                                                <h2>Blog & News Update</h2>
+                                            </div>
+                                            <div class="b_l_para">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                                                    minus, neque
+                                                    fugit laborum placeat quo magni inventore, facere, sunt sint minima
+                                                    aliquam
+                                                    quod
+                                                    iste accusantium! Odit animi minus aut molestias provident
+                                                    doloremque
+                                                    suscipit
+                                                    voluptas iusto illo quidem. Voluptas, corrupti cumque! &nbsp; <a
+                                                        href="#" style="color: #448C7F; font-weight:600;">Read More</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--  -->
+
+                                <div class="row py-md-5 py-2">
+                                    <div class="col-md-4">
+                                        <img src="assets/img/blog-list.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="blog_row">
+                                            <div class="b_l_heading">
+                                                <h5>Category Name</h5>
+                                            </div>
+                                            <div class="b_l_sheading">
+                                                <h2>Blog & News Update</h2>
+                                            </div>
+                                            <div class="b_l_para">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                                                    minus, neque
+                                                    fugit laborum placeat quo magni inventore, facere, sunt sint minima
+                                                    aliquam
+                                                    quod
+                                                    iste accusantium! Odit animi minus aut molestias provident
+                                                    doloremque
+                                                    suscipit
+                                                    voluptas iusto illo quidem. Voluptas, corrupti cumque! &nbsp; <a
+                                                        href="#" style="color: #448C7F; font-weight:600;">Read More</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--  -->
+
+                                <div class="row py-md-5 py-2">
+                                    <div class="col-md-4">
+                                        <img src="assets/img/blog-list.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="blog_row">
+                                            <div class="b_l_heading">
+                                                <h5>Category Name</h5>
+                                            </div>
+                                            <div class="b_l_sheading">
+                                                <h2>Blog & News Update</h2>
+                                            </div>
+                                            <div class="b_l_para">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                                                    minus, neque
+                                                    fugit laborum placeat quo magni inventore, facere, sunt sint minima
+                                                    aliquam
+                                                    quod
+                                                    iste accusantium! Odit animi minus aut molestias provident
+                                                    doloremque
+                                                    suscipit
+                                                    voluptas iusto illo quidem. Voluptas, corrupti cumque! &nbsp; <a
+                                                        href="#" style="color: #448C7F; font-weight:600;">Read More</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--  -->
+
+                                <div class="row py-md-5 py-2">
+                                    <div class="col-md-4">
+                                        <img src="assets/img/blog-list.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="blog_row">
+                                            <div class="b_l_heading">
+                                                <h5>Category Name</h5>
+                                            </div>
+                                            <div class="b_l_sheading">
+                                                <h2>Blog & News Update</h2>
+                                            </div>
+                                            <div class="b_l_para">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                                                    minus, neque
+                                                    fugit laborum placeat quo magni inventore, facere, sunt sint minima
+                                                    aliquam
+                                                    quod
+                                                    iste accusantium! Odit animi minus aut molestias provident
+                                                    doloremque
+                                                    suscipit
+                                                    voluptas iusto illo quidem. Voluptas, corrupti cumque! &nbsp; <a
+                                                        href="#" style="color: #448C7F; font-weight:600;">Read More</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--  -->
+
+                                <div class="row py-md-5 py-2">
+                                    <div class="col-md-4">
+                                        <img src="assets/img/blog-list.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="blog_row">
+                                            <div class="b_l_heading">
+                                                <h5>Category Name</h5>
+                                            </div>
+                                            <div class="b_l_sheading">
+                                                <h2>Blog & News Update</h2>
+                                            </div>
+                                            <div class="b_l_para">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                                                    minus, neque
+                                                    fugit laborum placeat quo magni inventore, facere, sunt sint minima
+                                                    aliquam
+                                                    quod
+                                                    iste accusantium! Odit animi minus aut molestias provident
+                                                    doloremque
+                                                    suscipit
+                                                    voluptas iusto illo quidem. Voluptas, corrupti cumque! &nbsp; <a
+                                                        href="#" style="color: #448C7F; font-weight:600;">Read More</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!--  -->
+
+
+                                <div class="row py-md-5 py-2">
+                                    <div class="col-md-4">
+                                        <img src="assets/img/blog-list.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="blog_row">
+                                            <div class="b_l_heading">
+                                                <h5>Category Name</h5>
+                                            </div>
+                                            <div class="b_l_sheading">
+                                                <h2>Blog & News Update</h2>
+                                            </div>
+                                            <div class="b_l_para">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                                                    minus, neque
+                                                    fugit laborum placeat quo magni inventore, facere, sunt sint minima
+                                                    aliquam
+                                                    quod
+                                                    iste accusantium! Odit animi minus aut molestias provident
+                                                    doloremque
+                                                    suscipit
+                                                    voluptas iusto illo quidem. Voluptas, corrupti cumque! &nbsp; <a
+                                                        href="#" style="color: #448C7F; font-weight:600;">Read More</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!--  -->
+
+                                <div class="row py-md-5 py-2">
+                                    <div class="col-md-4">
+                                        <img src="assets/img/blog-list.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="blog_row">
+                                            <div class="b_l_heading">
+                                                <h5>Category Name</h5>
+                                            </div>
+                                            <div class="b_l_sheading">
+                                                <h2>Blog & News Update</h2>
+                                            </div>
+                                            <div class="b_l_para">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                                                    minus, neque
+                                                    fugit laborum placeat quo magni inventore, facere, sunt sint minima
+                                                    aliquam
+                                                    quod
+                                                    iste accusantium! Odit animi minus aut molestias provident
+                                                    doloremque
+                                                    suscipit
+                                                    voluptas iusto illo quidem. Voluptas, corrupti cumque! &nbsp; <a
+                                                        href="#" style="color: #448C7F; font-weight:600;">Read More</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--  -->
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- blog list section end -->
 
         </section>
         <!-- full body section bg image -->
@@ -55,25 +487,6 @@
         <?php include './includes/footer.php' ?>
         <!-- Footer links -->
         <?php include './includes/footer-links.php' ?>
-        <script>
-            // owl carousel js
-            $("#carouselt").owlCarousel({
-                loop: true,
-                margin: 10,
-                nav: true,
-                responsive: {
-                    0: {
-                        items: 1,
-                    },
-                    600: {
-                        items: 2,
-                    },
-                    1000: {
-                        items: 3,
-                    },
-                },
-            });
-        </script>
     </body>
 
 </html>

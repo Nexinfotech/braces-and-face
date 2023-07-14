@@ -1234,6 +1234,260 @@ footer {
     width: 4px;
     height: 90%;
     background: #448c7f;
-}   
+}
 
 /* team end */
+
+
+/* blog section start */
+.b_heading h5 {
+    color: #4C626F;
+    font-family: Titillium Web;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 172.187%;
+    margin: 0;
+}
+
+.b_sheading h2 {
+    color: #448C7F;
+    font-family: Titillium Web;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.b_para p {
+    color: #787878;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.3px;
+}
+
+
+.b_l_heading h5 {
+    color: #4C626F;
+    font-family: Titillium Web;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 172.187%;
+    margin: 0;
+}
+
+.b_l_sheading h2 {
+    color: #448C7F;
+    font-family: Titillium Web;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.b_l_para p {
+    color: #787878;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 173.523%;
+    /* 27.764px */
+    letter-spacing: 0.24px;
+}
+
+
+/* blog side bar start */
+.side_bar_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar {
+    text-decoration: none;
+    margin-bottom: 2.5rem;
+}
+
+.side_bar_heading h2 {
+    color: #448C7F;
+    font-family: Titillium Web;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 157.687%;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.sidebr_box {
+    border-left: 5px solid #39CABB;
+    padding: 5px 0px 5px 16px;
+    border-radius: 3px;
+}
+
+.s_para p {
+    color: #4C626F;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 172.187%;
+}
+
+.s_update p {
+    color: #2C4857;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 172.187%;
+}
+
+.tag_bx {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+}
+
+.tag,
+.s_tag {
+    border-radius: 5px;
+    background: #F8F8F8;
+    padding: 8px 16px;
+    color: #4E4E4E;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.social_heading h3 {
+    color: #4C626F;
+    font-family: Titillium Web;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 172.187%;
+}
+
+.social_icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.social_icon a {
+    font-size: 1.5rem;
+}
+
+/* blog side bar end */
+
+.blog_view_section {
+    padding-top: 8rem;
+}
+
+.view_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.view_txt h2 {
+    color: #4B6C97;
+    font-family: Titillium Web;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 172.187%;
+}
+
+.view_txt p {
+    color: #448C7F;
+    font-family: Titillium Web;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.view_social_links h3 {
+    color: #4B6C97;
+    font-family: Titillium Web;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 172.187%;
+    text-transform: uppercase;
+}
+
+.view_social_icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.view_social_icon a {
+    font-size: 1.5rem;
+    color: #4B6C97;
+}
+
+.artical {
+    padding: 3rem 0;
+}
+
+.artical p {
+    color: #787878;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 41.005px */
+    letter-spacing: 0.3px;
+}
+
+
+.more_artical_heading h2 {
+    color: #448C7F;
+    font-family: Titillium Web;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 172.187%;
+    /* 61.987px */
+    margin-bottom: 1rem;
+}
+
+.more_heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    margin-top: 1rem;
+}
+
+.time_bx {
+    border-radius: 10px;
+    background: #39CABB;
+    padding: 10px 10px;
+}
+
+.time_bx p {
+    margin: 0;
+    color: #fff;
+}
+
+.texts p {
+    margin: 0;
+    color: #4B6C97;
+    font-family: Titillium Web;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 172.187%;
+    /* 27.55px */
+}
+.texts h3 {
+    color: #2C4857;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 172.187%; /* 34.437px */D
+}
+
+
+
+
+
+
+
+/* blog section end */
