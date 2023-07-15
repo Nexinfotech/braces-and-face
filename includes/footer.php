@@ -26,13 +26,13 @@
                     <div class="Footer_links">
                         <h2>Company</h2>
                         <ul>
-                            <li><a href="About"> About </a></li>
-                            <li><a href="Why choose us"> Why choose us </a></li>
-                            <li><a href="Meet our Team"> Meet our Team </a></li>
-                            <li><a href="Our Blogs"> Our Blogs </a></li>
+                            <li><a href="about.php"> About </a></li>
+                            <li><a href="why-c-us.php"> Why choose us </a></li>
+                            <li><a href="team.php"> Meet our Team </a></li>
+                            <li><a href="blog.php"> Our Blogs </a></li>
                             <li><a href="Careers"> Careers </a></li>
                             <li><a href="KbDoc for Good"> KbDoc for Good </a></li>
-                            <li><a href="Contact Us"> Contact Us </a></li>
+                            <li><a href="contact.php"> Contact Us </a></li>
                         </ul>
                     </div>
                 </div>

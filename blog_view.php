@@ -173,6 +173,7 @@
                                         <h2>Related Articles</h2>
                                     </div>
                                 </div>
+
                                 <div class="col-md-4">
                                     <div class="more_blog_bx">
                                         <img src="assets/img/more_blog.png" alt="" class="img-fluid">
@@ -185,14 +186,73 @@
                                                 <div class="texts">
                                                     <p>Category Name</p>
                                                     <h3>Blog & News Update</h3>
+                                                    <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At
+                                                        interdum
+                                                        aliquet
+                                                        rutrum ultrices at. Ac ipsum sollicitudin morbi at velit
+                                                        suscipit
+                                                        purus.</h6>
                                                 </div>
+
                                             </div>
                                         </div>
-
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At interdum aliquet
-                                            rutrum ultrices at. Ac ipsum sollicitudin morbi at velit suscipit purus.</p>
                                     </div>
                                 </div>
+
+                                <!--  -->
+
+                                <div class="col-md-4">
+                                    <div class="more_blog_bx">
+                                        <img src="assets/img/more_blog.png" alt="" class="img-fluid">
+                                        <div class="more_artical_content">
+                                            <div class="time_bx">
+                                                <p>Dec 29</p>
+                                            </div>
+                                            <div class="more_heading">
+
+                                                <div class="texts">
+                                                    <p>Category Name</p>
+                                                    <h3>Blog & News Update</h3>
+                                                    <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At
+                                                        interdum
+                                                        aliquet
+                                                        rutrum ultrices at. Ac ipsum sollicitudin morbi at velit
+                                                        suscipit
+                                                        purus.</h6>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--  -->
+
+                                <div class="col-md-4">
+                                    <div class="more_blog_bx">
+                                        <img src="assets/img/more_blog.png" alt="" class="img-fluid">
+                                        <div class="more_artical_content">
+                                            <div class="time_bx">
+                                                <p>Dec 29</p>
+                                            </div>
+                                            <div class="more_heading">
+
+                                                <div class="texts">
+                                                    <p>Category Name</p>
+                                                    <h3>Blog & News Update</h3>
+                                                    <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At
+                                                        interdum
+                                                        aliquet
+                                                        rutrum ultrices at. Ac ipsum sollicitudin morbi at velit
+                                                        suscipit
+                                                        purus.</h6>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                         <!-- more artical end -->

@@ -41,7 +41,7 @@
                             <a class="nav-item nav-link" href="blog.php">Blogs</a>
                             <a class="nav-item nav-link" href="why-c-us.php">Why Choose us</a>
                             <a class="nav-item nav-link" href="team.php">Meet Our Team </a>
-                            <a class="nav-item nav-link" href="#">
+                            <a class="nav-item nav-link" href="contact.php">
                                 <div class="contact_btn"><i class="fa-solid fa-phone" style="color: #ffffff;"></i>
                                     &nbsp; Contact us</div>
                             </a>
