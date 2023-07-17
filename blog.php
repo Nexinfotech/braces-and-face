@@ -50,7 +50,7 @@
                 <div class="pt-md-5 pt-3">
                     <div class="container py-md-5 py-3">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 mb-4 mb-lg-0">
                                 <img src="assets/img/blog.png" alt="" class="img-fluid">
                             </div>
                             <div class="col-md-8">

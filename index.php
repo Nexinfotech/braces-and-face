@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +11,7 @@
         <!-- Header links -->
         <?php include './includes/header-links.php' ?>
     </head>
+
     <body>
 
         <!-- Navbar start  -->
@@ -20,7 +22,7 @@
         <section class="hero_section">
             <div class="container py-lg-5 py-4">
                 <div class="row py-lg-5">
-                    <div class="col-md-6">
+                    <div class="col-md-6 order-1 order-lg-0">
                         <div class="left_box">
                             <h2>
                                 <span> Exceptional Care</span>
@@ -32,7 +34,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 order-0 order-lg-1">
                         <div class="right_box">
                             <img src="assets/img/hero_img.png" alt="" class="img-fluid">
                         </div>
@@ -47,7 +49,7 @@
             <div class="specs_container">
                 <div class="container py-2">
                     <div class="achieve">
-                        <div class="d-lg-block d-md-none d-sm-none d-none">
+                        <div class="achieve_points">
                             <div class="row align-items-center justify-content-center">
                                 <div class="col border pt-lg-0 pt-md-0 pt-4">
                                     <div class="abox">
@@ -89,7 +91,7 @@
         <section style="background: url(./assets/img/about-bg.png) no-repeat center center / cover;">
             <div class="container py-lg-5 py-4">
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-md-8 order-1 order-lg-0">
                         <div class="about_content">
                             <div class="about_heading">
                                 <h2>Best, highly qualified clinicians who understand dentistry with holistic approach
@@ -97,7 +99,8 @@
                             </div>
                             <div class="about_para">
                                 <p>Braces Faces superspeciality dental care is founded by Dr.shubhangi
-                                    (MDS-Orthodontist) & <b>Dr Satyajit </b>( MDS-Oral & Maxillofacial surgeon) with aims to
+                                    (MDS-Orthodontist) & <b>Dr Satyajit </b>( MDS-Oral & Maxillofacial surgeon) with
+                                    aims to
                                     provide unparalleled dental, orthodontic, implantology, customise implantology, oral
                                     cancer surgeries & maxillofacial surgery services at affordable prices. Dr Shubhangi
                                     is an Orthodontist & licences HAAD practiser in Abu Dhabi who graduated in dentistry
@@ -110,7 +113,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 order-0 order-lg-1 mb-4 mb-lg-0">
                         <img src="assets/img/about_us.png" alt="" class="img-fluid">
                     </div>
                 </div>
@@ -168,8 +171,9 @@
                                             <p>A dental implant (also known as an endosseous implant or fixture) is a
                                                 prosthesis that interfaces with the bone of the jaw or skull to support
                                                 a dental prosthesis such as a crown, bridge, denture, or facial
-                                                prosthesis or to act as an orthodontic anchor.&nbsp;<a href="implant.php"
-                                                    style="color: #448C7F; font-weight:600;">Read More</a>
+                                                prosthesis or to act as an orthodontic anchor.&nbsp;<a
+                                                    href="implant.php" style="color: #448C7F; font-weight:600;">Read
+                                                    More</a>
                                             </p>
                                         </div>
                                     </div>
@@ -192,7 +196,8 @@
                                                 intrinsic or extrinsic
                                                 color of the tooth enamel. The chemical degradation of the
                                                 chromogens within or on the tooth is termed as bleaching.&nbsp;<a
-                                                    href="whitening.php" style="color: #448C7F; font-weight:600;">Read More</a>
+                                                    href="whitening.php" style="color: #448C7F; font-weight:600;">Read
+                                                    More</a>
                                             </p>
                                         </div>
                                     </div>
@@ -307,7 +312,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6">
-                                <img src="assets/img/teeth_animate.png" alt="" class="img-fluid">
+                                <img src="assets/img/teeth_animate.png" alt="" class="img-fluid animation_plan_teeth">
                             </div>
                             <div class="col-md-6">
                                 <div class="selection_content">
@@ -339,8 +344,9 @@
         <!-- Plan section end -->
 
         <!-- Testimonial  section start -->
-        <section style="background: url(./assets/img/testi_bg.png) no-repeat center center / cover;">
-            <div class="">
+        <section style="background: url(./assets/img/testi_bg.png) no-repeat center center / cover;"
+            class="tesitimonial_section">
+            <div class="Testimonial">
                 <div class="container pt-md-5 py-3">
                     <div class="row">
                         <div class="col-md-10 m-auto pb-md-4 pb-2">
@@ -367,7 +373,8 @@
                                                             my tooth extraction. The entire process was painless and
                                                             surprisingly easy. From the moment I stepped into the
                                                             clinic, the staff made me feel at ease with their friendly
-                                                            and caring approach. <b>Dr Satyajit </b>is highly skilled and
+                                                            and caring approach. <b>Dr Satyajit </b>is highly skilled
+                                                            and
                                                             ensured that I was comfortable throughout the procedure. I
                                                             was amazed at how painless the extraction was, and the
                                                             recovery was smooth too. The clinic's attention to detail
@@ -458,7 +465,8 @@
                                                             It's been amazing experience I had during my RCT and tooth
                                                             extraction @Braces & Faces. The entire team is dedicated and
                                                             making every small efforts to make their patient
-                                                            comfortable. <b>Dr Satyajit </b>is highly qualified and knows his
+                                                            comfortable. <b>Dr Satyajit </b>is highly qualified and
+                                                            knows his
                                                             job extremely well. They are taking care of all the hygiene
                                                             related stuff to the max, I would highly recommend Braces &
                                                             Faces to everyone. Thanks a lot once again the entire team
@@ -483,7 +491,8 @@
                                                                 class="img-fluid"></div>
                                                         <span> Omprakash Karamunge </span>
                                                         <p>
-                                                            I visited <b>Dr Satyajit </b>clinic with one my friend’s reference.
+                                                            I visited <b>Dr Satyajit </b>clinic with one my friend’s
+                                                            reference.
                                                             I was mentioned about cleanliness to keep clinic neat clean
                                                             & operate patients under aseptic sterile conditions.
                                                             I was happy seeing what was mentioned. I would strongly
@@ -510,10 +519,12 @@
                                                                 class="img-fluid"></div>
                                                         <span> KANISHK GARG </span>
                                                         <p>
-                                                            I would like to thank <b>Dr Satyajit </b>and his entire team for
+                                                            I would like to thank <b>Dr Satyajit </b>and his entire team
+                                                            for
                                                             such an amazing dental treatment. Me and my wife had been to
                                                             Braces & Faces for rct,capping and tooth extraction and I
-                                                            must say that <b>Dr Satyajit </b>is one of the best dental surgeon
+                                                            must say that <b>Dr Satyajit </b>is one of the best dental
+                                                            surgeon
                                                             I have met. Starting from diagnosis till the complete
                                                             treatment everything was explained in detailed with total
                                                             transparency. He has taken extra care of the hygiene and
@@ -542,7 +553,8 @@
                                                                 class="img-fluid"></div>
                                                         <span> Sneha c</span>
                                                         <p>
-                                                            <b><b>Dr Satyajit </b>Wadje </b> is an extremely professional,
+                                                            <b><b>Dr Satyajit </b>Wadje </b> is an extremely
+                                                            professional,
                                                             knowledgeable and a competent doctor. Throughout my dental
                                                             procedure, he was thorough, attentive and ensured to take
                                                             out the time to explain me everything related to the
@@ -552,7 +564,8 @@
                                                             thoughtful post op care I could have asked for.
                                                             It is this diligent process and compassion that instills
                                                             confidence in patients. I am extremely happy with my
-                                                            treatment and would highly recommend <b><b>Dr Satyajit </b>Wadje </b> and
+                                                            treatment and would highly recommend <b><b>Dr Satyajit
+                                                                </b>Wadje </b> and
                                                             Team Braces and Faces Superspeciality for all dental
                                                             treatments.
                                                         </p>
@@ -575,7 +588,8 @@
                                                                 class="img-fluid"></div>
                                                         <span> Om Dighe (Omi) </span>
                                                         <p>
-                                                            <b><b>Dr Satyajit </b>Wadje </b> is one of the best dental surgeons in
+                                                            <b><b>Dr Satyajit </b>Wadje </b> is one of the best dental
+                                                            surgeons in
                                                             Pune. I recently had my wisdom tooth removed, and the
                                                             operation was seamless and I did not feel any pain. He also
                                                             kept making sure I was okay during the operation and was not
@@ -585,7 +599,8 @@
                                                             I would highly recommend Braces and Faces for any kind of
                                                             dental problems. Excellent service aswell as great
                                                             atmosphere inside the clinic.
-                                                            I would like to thank <b>Dr Satyajit </b>again for his help and
+                                                            I would like to thank <b>Dr Satyajit </b>again for his help
+                                                            and
                                                             would recommend going to him for your dental needs.
                                                         </p>
                                                         <div class="start_rating">
@@ -755,7 +770,7 @@
         <!--  our clinic section end -->
 
         <!-- Blog section start -->
-        <section>
+        <section class="belog_section">
             <div class="mt-md-5 mt-2">
                 <div class="container py-md-5 py-2">
                     <div class="row">
@@ -826,7 +841,7 @@
 
 
         <!-- Partnership section start -->
-       <?php include './includes/partner.php' ?>
+        <?php include './includes/partner.php' ?>
         <!-- Partnership section end -->
 
         <!-- Footer -->

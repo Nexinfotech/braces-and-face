@@ -34,7 +34,7 @@
                 </div>
                 <!-- teeth animate vector -->
                 <div class="about_vector">
-                    <img src="assets/img/common_teeth_vector.png" alt="" class="img-fluid">
+                    <img src="assets/img/common_teeth_vector.png" alt="" class="img-fluid about_teeth">
                 </div>
             </div>
         </section>
@@ -49,7 +49,7 @@
                 <div class="pt-md-5 pt-2">
                     <div class="container py-md-5 py-2">
                         <div class="row">
-                            <div class="col-md-8">
+                            <div class="col-md-8 order-1 order-lg-0">
                                 <div class="about_text">
                                     <p>Best, highly qualified clinicians who understand dentistry with holistic approach
                                         for
@@ -71,7 +71,7 @@
                                     <a href="" class="btn">Contact Us</a>
                                 </div>
                             </div>
-                            <div class="col-md-4 text-end">
+                            <div class="col-md-4 order-0 order-lg-1 text-end mb-3 mb-lg-0">
                                 <img src="assets/img/about.png" alt="" class="img-fluid">
                             </div>
                         </div>

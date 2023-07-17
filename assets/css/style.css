@@ -1610,3 +1610,8 @@ footer {
 
 
 /* contact page end */
+
+
+.nav_bg .offcanvas-header {
+    background: #39cabb;
+}
