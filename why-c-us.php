@@ -64,7 +64,7 @@
                 </div>
                 <div class="container py-3">
                     <div class="row py-md-5 py-4 align-items-center">
-                        <div class="col-md-7">
+                        <div class="col-md-7 order-lg-0 order-1">
                             <div class="why-1-content">
                                 <ul class="p-0 list-unstyled">
                                     <li> <span>1.</span> A caring team of specialists
@@ -79,17 +79,17 @@
                             </div>
                         </div>
                         <div class="col-md-1"></div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 order-lg-1 order-0 mb-4 mb-lg-0">
                             <img src="assets/img/why-1.png" alt="" class="img-fluid">
                         </div>
                     </div>
                     <!-- why - 2 -->
                     <div class="row py-md-5 py-4 align-items-center">
-                        <div class="col-md-4">
+                        <div class="col-md-4 order-lg-1 order-0 mb-4 mb-lg-0">
                             <img src="assets/img/why-2.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-md-1"></div>
-                        <div class="col-md-7">
+                        <div class="col-md-7 order-lg-1 order-0">
                             <div class="why-1-content">
                                 <ul class="p-0 list-unstyled">
                                     <li> <span>6. </span> Flexible Timings
