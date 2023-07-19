@@ -59,7 +59,7 @@
                                         <div class="owl-carousel owl-theme owl-loaded owl-drag" id="carouselt">
                                             <div class="owl-stage-outer">
                                                 <div class="owl-stage"
-                                                    style="transform: translate3d(-2176px, 0px, 0px); transition: all 0.25s ease 0s; width: 4789px;">
+                                                    style="transform: translate3d(-2611px, 0px, 0px); transition: all 0.25s ease 0s; width: 4789px;">
                                                     <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
                                                         <div class="item">
                                                             <div class="client-image">
@@ -76,8 +76,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="owl-item active"
-                                                        style="width: 425.333px; margin-right: 10px;">
+                                                    <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
                                                         <div class="item">
                                                             <div class="client-image">
                                                                 <img src="assets/images/teeth/client-3.jpeg"
@@ -85,8 +84,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="owl-item active"
-                                                        style="width: 425.333px; margin-right: 10px;">
+                                                    <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
                                                         <div class="item">
                                                             <div class="client-image">
                                                                 <img src="assets/images/teeth/client-4.jpeg"
@@ -94,8 +92,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="owl-item active"
-                                                        style="width: 425.333px; margin-right: 10px;">
+                                                    <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
                                                         <div class="item">
                                                             <div class="client-image">
                                                                 <img src="assets/images/teeth/client-5.jpeg"

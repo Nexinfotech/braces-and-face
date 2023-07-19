@@ -85,9 +85,12 @@
                 <div>
                     <div class="container py-md-5 py-2">
                         <div class="row">
+                            <div class="col-md-4 m-auto mb-3">
+                                <img src="assets/img/she.jpeg" alt="" class="img-fluid">
+                            </div>
                             <div class="col-md-10 m-auto">
                                 <div class="about_txt">
-                                    <p>She has the experience of more than 7 years and has successfully completed 2,000+
+                                    <p>Dr.Shubhangi has the experience of more than 7 years and has successfully completed 2,000+
                                         ortho cases and done 500+ Aligner cases. Dr Satyajit passed is under graduation
                                         from CSMSS dental college Sambhaji Nagar & PG from Dr D Y Patil Dental college
                                         in Oral & Maxillofacial Surgery in
@@ -142,11 +145,12 @@
                             <div class="col-md-12">
                                 <div class="client-review meetour">
                                     <h2> met our team </h2>
+
                                     <div class="client-slide">
-                                        <div class="owl-carousel owl-theme owl-loaded owl-drag" id="carousel4">
+                                        <div class="owl-carousel owl-theme owl-loaded owl-drag" id="carouselmeet">
                                             <div class="owl-stage-outer">
                                                 <div class="owl-stage"
-                                                    style="transform: translate3d(-2176px, 0px, 0px); transition: all 0.25s ease 0s; width: 4789px;">
+                                                    style="transform: translate3d(-2611px, 0px, 0px); transition: all 0.25s ease 0s; width: 4789px;">
                                                     <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
                                                         <div class="item">
                                                             <div class="client-image">
@@ -163,8 +167,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="owl-item active"
-                                                        style="width: 425.333px; margin-right: 10px;">
+                                                    <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
                                                         <div class="item">
                                                             <div class="client-image">
                                                                 <img src="assets/images/teeth/client-3.jpeg"
@@ -172,8 +175,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="owl-item active"
-                                                        style="width: 425.333px; margin-right: 10px;">
+                                                    <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
                                                         <div class="item">
                                                             <div class="client-image">
                                                                 <img src="assets/images/teeth/client-4.jpeg"
@@ -181,8 +183,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="owl-item active"
-                                                        style="width: 425.333px; margin-right: 10px;">
+                                                    <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
                                                         <div class="item">
                                                             <div class="client-image">
                                                                 <img src="assets/images/teeth/client-5.jpeg"
@@ -194,6 +195,7 @@
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="dent_btn m-0 m-auto w-50">
                                         <a href="">Book Your Free Appointment Now </a>
                                     </div>
@@ -224,7 +226,7 @@
 
         <script>
             // owl carousel js
-            $("#carousel4").owlCarousel({
+            $("#carouselmeet").owlCarousel({
                 loop: true,
                 margin: 10,
                 nav: true,

@@ -3,7 +3,7 @@
     <div>
         <div class="container py-md-5 py-2">
             <div class="row align-items-center">
-                <div class="col-md-9">
+                <div class="col-md-9 order-1 order-lg-0 order-md-0">
                     <div class="common_heading">
                         <h2>At Impression Dental Care, Dr.Satyajit has placed more than 1000+ successful
                             implants with painless technique & latest equipment.</h2>
@@ -14,8 +14,8 @@
                     </div>
                 </div>
                 <div class="col-md-1"></div>
-                <div class="col-md-2">
-                    <img src="./assets/img/common_teeth_vector.png" alt="" class="img-fluid">
+                <div class="col-md-2 order-0 order-lg-1 order-md-1">
+                    <img src="./assets/img/common_teeth_vector.png" alt="" class="img-fluid common_teeth_vector">
                 </div>
             </div>
         </div>
@@ -26,7 +26,7 @@
     <div class="specs_container">
         <div class="container py-2">
             <div class="achieve">
-                <div class="d-lg-block d-md-none d-sm-none d-none">
+                <div class="">
                     <div class="row align-items-center justify-content-center">
                         <div class="col border pt-lg-0 pt-md-0 pt-4">
                             <div class="abox">

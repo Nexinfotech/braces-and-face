@@ -193,13 +193,13 @@
                                             <h3>FOLLOW US ON SOCIAL </h3>
                                         </div>
                                         <div class="social_icon">
-                                            <a href="#">
-                                                <i class="fa-brands fa-facebook" style="color: #39CABB;"></i>
+                                            <a href="https://instagram.com/braces_and_faces_?igshid=MzRlODBiNWFlZA==" target="_blank">
+                                                <i class="fa-brands fa-instagram" style="color: #39CABB;"></i>
                                             </a>
-                                            <a href="#">
-                                                <i class="fa-brands fa-twitter" style="color: #39CABB;"></i>
+                                            <a href="https://youtube.com/@dr.satyajitwadje8936" target="_blank">
+                                                <i class="fa-brands fa-youtube" style="color: #39CABB;"></i>
                                             </a>
-                                            <a href="#">
+                                            <a href="https://www.linkedin.com/in/dr-shubhangi-sangvikar-3168a590" target="_blank">
                                                 <i class="fa-brands fa-linkedin" style="color: #39CABB;"></i>
                                             </a>
                                         </div>

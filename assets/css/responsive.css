@@ -1555,6 +1555,9 @@
         text-shadow: 0px 2px 8px #00000040;
         margin: 0;
     }
+
+
+
 }
 
 
@@ -2510,5 +2513,103 @@
         width: 100vw;
         height: 100vh;
         background-color: #000;
+    }
+
+    .service_section_heading h2 {
+        color: #448C7F;
+        text-align: center;
+        font-family: Rufina;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 85px;
+        text-transform: capitalize;
+        margin: 5px 0px 5px 0px;
+    }
+
+    .chsc_heading h2 {
+        color: #448C7F;
+        font-family: Titillium Web;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+    .chsc_heading p {
+        color: #4E4E4E;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    .chsc_para p {
+        color: #323232;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        margin: 0;
+    }
+
+    .floating_sticker {
+        border-radius: 20px;
+        background: #FFF;
+        box-shadow: 5px 4px 63px 0px rgba(0, 0, 0, 0.15);
+        position: absolute;
+        left: 0;
+        top: 29%;
+        transform: translate(-50%, 0%);
+        padding: 15px;
+        width: 150px;
+        height: 160px;
+        display: none;
+    }
+
+    .common_heading h2 {
+        color: #FFF;
+        font-family: Titillium Web;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: capitalize;
+        /* padding-right: 8rem; */
+    }
+
+    .common_heading p {
+        color: #FFF;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 205.023%;
+        letter-spacing: 0.24px;
+    }
+
+    .appointment_btn {
+        border-radius: 46.5px;
+        background: #FFF;
+        padding: 10px 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .appointment_btn a {
+        font-size: 1em;
+        font-weight: 600;
+        color: #4C626F;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+    .client-review h2 {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+        line-height: 30px;
+        color: #12ada9;
+    }
+    .common_teeth_vector {
+        width: 200px !important;
     }
 }

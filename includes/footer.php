@@ -14,10 +14,13 @@
                                 auctor viverra vel diam. Feugiat at interdum at elit.</p>
                         </div>
                         <div class="footer_social_icon">
-                            <span><i class="fa-brands fa-facebook-f" style="color: #39CABB;"></i></span>
-                            <span><i class="fa-brands fa-twitter" style="color: #39CABB;"></i></span>
-                            <span><i class="fa-brands fa-linkedin" style="color: #39CABB;"></i></span>
-                            <span><i class="fa-brands fa-vimeo-v" style="color: #39CABB;"></i></span>
+                            <a href="https://instagram.com/braces_and_faces_?igshid=MzRlODBiNWFlZA==" target="_blank"><span><i
+                                        class="fa-brands fa-instagram" style="color: #39CABB;"></i></span></a>
+                            <a href="https://youtube.com/@dr.satyajitwadje8936" target="_blank"> <span> <i class="fa-brands fa-youtube"
+                                        style="color: #39CABB;"></i></span></a>
+                            <a href="https://www.linkedin.com/in/dr-shubhangi-sangvikar-3168a590" target="_blank"> <span><i
+                                        class="fa-brands fa-linkedin" style="color: #39CABB;"></i></span></a>
+                            <!-- <a href="http://"><span><i class="fa-brands fa-vimeo-v" style="color: #39CABB;"></i></span></a> -->
                         </div>
                     </div>
                 </div>

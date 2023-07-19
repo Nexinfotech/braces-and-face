@@ -702,6 +702,10 @@ footer {
     margin: 15px 0;
 }
 
+.footer_social_icon a {
+    text-decoration: none;
+}
+
 .footer_social_icon span i {
     font-size: 1rem;
 }

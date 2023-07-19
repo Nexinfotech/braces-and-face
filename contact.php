@@ -83,10 +83,17 @@
                                                 <input id="phone" type="tel" class="form-control" name="phone"
                                                     placeholder="Eg : 634816161" />
                                             </div>
-                                            <div class="col-12">
+                                            <div class="col-md-12">
                                                 <label for="age" class="form-label">Age*</label>
-                                                <input type="text" class="form-control" id="age" placeholder="Eg : 22"
-                                                    name="age">
+                                                <select id="age" class="form-select" name="age">
+                                                    <option selected>Choose...</option>
+                                                    <option> Between 18 to 24</option>
+                                                    <option>Between 25 to 34</option>
+                                                    <option>Between 35 to 44</option>
+                                                    <option>Between 45 to 54</option>
+                                                    <option>Between 55 to 64</option>
+                                                    <option>Above 64</option>
+                                                </select>
                                             </div>
                                             <div class="col-md-12">
                                                 <label for="condition" class="form-label">Current condition *</label>
@@ -101,8 +108,12 @@
                                                 <label for="Gender" class="form-label">Gender*</label>
                                                 <select id="Gender" class="form-select" name="Gender">
                                                     <option selected>Choose...</option>
-                                                    <option>Male</option>
-                                                    <option>Female</option>
+                                                    <option> Between 18 to 24</option>
+                                                    <option>Between 25 to 34</option>
+                                                    <option>Between 35 to 44</option>
+                                                    <option>Between 45 to 54</option>
+                                                    <option>Between 55 to 64</option>
+                                                    <option>Above 64</option>
                                                 </select>
                                             </div>
 
