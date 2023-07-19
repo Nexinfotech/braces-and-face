@@ -108,12 +108,10 @@
                                                 <label for="Gender" class="form-label">Gender*</label>
                                                 <select id="Gender" class="form-select" name="Gender">
                                                     <option selected>Choose...</option>
-                                                    <option> Between 18 to 24</option>
-                                                    <option>Between 25 to 34</option>
-                                                    <option>Between 35 to 44</option>
-                                                    <option>Between 45 to 54</option>
-                                                    <option>Between 55 to 64</option>
-                                                    <option>Above 64</option>
+                                                    <option>Male</option>
+                                                    <option>Female</option>
+                                                    <option>Gay</option>
+                                                    <option>Trans</option>
                                                 </select>
                                             </div>
 
