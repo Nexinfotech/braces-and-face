@@ -29,7 +29,7 @@
                                 <p>Best, highly qualified clinicians who understand dentistry with holistic approach
                                 </p>
                                 <div class="book_btn_for_service_page">
-                                    <a href="">Book an appointment</a>
+                                    <a href="contact.php">Book an appointment</a>
                                 </div>
                             </div>
                         </div>
@@ -63,7 +63,7 @@
                                                     <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
                                                         <div class="item">
                                                             <div class="client-image">
-                                                                <img src="assets/images/teeth/client-1.jpeg"
+                                                                <img src="assets/img/team1.png"
                                                                     class="img-fluid">
                                                             </div>
                                                         </div>
@@ -71,7 +71,7 @@
                                                     <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
                                                         <div class="item">
                                                             <div class="client-image">
-                                                                <img src="assets/images/teeth/client-2.jpeg"
+                                                                <img src="assets/img/team2.png"
                                                                     class="img-fluid">
                                                             </div>
                                                         </div>
@@ -79,23 +79,7 @@
                                                     <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
                                                         <div class="item">
                                                             <div class="client-image">
-                                                                <img src="assets/images/teeth/client-3.jpeg"
-                                                                    class="img-fluid">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
-                                                        <div class="item">
-                                                            <div class="client-image">
-                                                                <img src="assets/images/teeth/client-4.jpeg"
-                                                                    class="img-fluid">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
-                                                        <div class="item">
-                                                            <div class="client-image">
-                                                                <img src="assets/images/teeth/client-5.jpeg"
+                                                                <img src="assets/img/team3.png"
                                                                     class="img-fluid">
                                                             </div>
                                                         </div>
@@ -226,7 +210,7 @@
                                             </div>
                                         </div>
                                         <div class="dent_btn">
-                                            <a href="">Book an appointment</a>
+                                            <a href="contact.php">Book an appointment</a>
                                         </div>
                                     </div>
                                 </div>

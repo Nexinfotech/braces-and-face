@@ -1556,6 +1556,16 @@
         margin: 0;
     }
 
+    .video_heading h2 {
+        color: #448C7F;
+        text-align: center;
+        font-family: Titillium Web;
+        font-size: 34px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-bottom: 3rem;
+        line-height: 42px;
+    }
 
 
 }
@@ -1651,6 +1661,12 @@
     }
 
     .service_bx {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 400px;
         margin-bottom: 5rem;
     }
 
@@ -1816,7 +1832,7 @@
         background-position: center;
         background-repeat: no-repeat;
         width: 100%;
-        padding: 3rem 0;
+        padding: 1rem 1px;
     }
 
     .clinic_heading h2 {
@@ -2152,6 +2168,54 @@
         letter-spacing: 0.24px;
     }
 
+    .b_content h2 {
+        color: #448C7F;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: capitalize;
+        margin: 0;
+    }
+
+    .b_content p {
+        color: #737576;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+    }
+
+    .m_blog_s {
+        border: none !important;
+    }
+
+    .m_blog_s .col-md-4 {
+        margin-top: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+
+    .blog_s {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 7px 3px;
+    }
+
+    .m_blog_s {
+        margin-top: 0rem;
+    }
+
+    .blog_bx {
+        margin-bottom: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        border-radius: 7px;
+        padding: 6px;
+    }
+
     .s_para p {
         color: #4C626F;
         font-family: Poppins;
@@ -2270,7 +2334,7 @@
     }
 
     .header_lgo {
-        width: 150px;
+        width: 80px;
     }
 
     /*  */
@@ -2609,7 +2673,65 @@
         line-height: 30px;
         color: #12ada9;
     }
+
     .common_teeth_vector {
         width: 200px !important;
+    }
+
+    .abox h2 {
+        color: #448C7F;
+        text-align: center;
+        font-family: Titillium Web;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 157.1%;
+        margin: 0;
+    }
+
+    .achieve .abox p {
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 400;
+        color: #039d8d;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .customer-text span {
+        font-size: 25px;
+        margin-bottom: 1rem;
+        font-weight: 700;
+        color: #3d3d77;
+        text-align: center;
+    }
+
+    .icon img {
+        width: 90px;
+    }
+
+    .details_bx {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .video_heading h2 {
+        color: #448C7F;
+        text-align: center;
+        font-family: Titillium Web;
+        font-size: 34px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-bottom: 2.5rem;
+        line-height: 42px;
+    }
+
+    .youtube_video iframe {
+        border: 5px solid #448C7F;
+        padding: 0;
+        width: 100%;
+        height: 280px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }

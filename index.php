@@ -14,29 +14,126 @@
 
     <body>
 
+
+
         <!-- Navbar start  -->
         <?php include 'includes/navbar.php' ?>
         <!-- Navbar end  -->
 
         <!-- hero section start -->
         <section class="hero_section">
-            <div class="container py-lg-5 py-4">
+            <div class="container-fluid py-lg-5 py-4 px-md-5 px-3">
                 <div class="row py-lg-5">
-                    <div class="col-md-6 order-1 order-lg-0">
-                        <div class="left_box">
-                            <h2>
-                                <span> Exceptional Care</span>
-                                with Unmatched
-                                Expertise
-                            </h2>
-                            <div class="book_btn">
-                                <a href="">Book an appointment</a>
+                    <div class="owl-carousel owl-theme owl-loaded owl-drag" id="hero">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage"
+                                style="transform: translate3d(-2611px, 0px, 0px); transition: all 0.25s ease 0s; width: 4789px;">
+                                <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
+                                    <div class="item">
+
+                                        <div class="row" data-aos="fade-up">
+                                            <div class="col-md-6 order-1 order-lg-0">
+                                                <div class="left_box" data-aos="fade-up-right">
+                                                    <h2>
+                                                        <span> Exceptional Care</span>
+                                                        with Unmatched
+                                                        Expertise
+                                                    </h2>
+                                                    <div class="book_btn">
+                                                        <a href="contact.php">Book an appointment</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 order-0 order-lg-1">
+                                                <div class="right_box" data-aos="fade-up-left">
+                                                    <img src="assets/img/hero_img.png" alt="" class="img-fluid">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
+                                    <div class="item">
+
+                                        <div class="row">
+                                            <div class="col-md-6 order-1 order-lg-0" data-aos="fade-up-right">
+                                                <div class="left_box">
+                                                    <h2>
+                                                        <span> pimple saudagar’s </span>
+                                                        professional Dentistry
+                                                        from last 10years
+                                                    </h2>
+                                                    <div class="book_btn">
+                                                        <a href="contact.php">Book an appointment</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 order-0 order-lg-1">
+                                                <div class="right_box">
+                                                    <img src="assets/img/hero_img_2.png" alt="" class="img-fluid">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
+                                    <div class="item">
+
+                                        <div class="row">
+                                            <div class="col-md-6 order-1 order-lg-0">
+                                                <div class="left_box" data-aos="fade-up-right">
+                                                    <h2>
+                                                        <span> Comprehensive Care </span>
+                                                        with Unmatched
+                                                        Expertise.
+
+                                                    </h2>
+                                                    <div class="book_btn">
+                                                        <a href="contact.php">Book an appointment</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 order-0 order-lg-1">
+                                                <div class="right_box" data-aos="fade-up-left">
+                                                    <img src="assets/img/hero_img_3.png" alt="" class="img-fluid">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
+                                    <div class="item">
+
+                                        <div class="row">
+                                            <div class="col-md-6 order-1 order-lg-0">
+                                                <div class="left_box">
+                                                    <h2>
+                                                        <span> Your great smile </span>
+                                                        begins with a
+                                                        great dentistry
+                                                    </h2>
+                                                    <div class="book_btn">
+                                                        <a href="contact.php">Book an appointment</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 order-0 order-lg-1">
+                                                <div class="right_box">
+                                                    <img src="assets/img/hero_img_4.png" alt="" class="img-fluid">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 order-0 order-lg-1">
-                        <div class="right_box">
-                            <img src="assets/img/hero_img.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -45,45 +142,7 @@
         <!-- hero section end -->
 
         <!-- specification section start -->
-        <section>
-            <div class="specs_container">
-                <div class="container py-2">
-                    <div class="achieve">
-                        <div class="achieve_points">
-                            <div class="row align-items-center justify-content-center">
-                                <div class="col border pt-lg-0 pt-md-0 pt-4">
-                                    <div class="abox">
-                                        <img src="assets/img/5start.png" class="img-fluid">
-                                        <p>Star Rating</p>
-                                        <span></span>
-                                    </div>
-                                </div>
-                                <div class="col border pt-lg-0 pt-md-0 pt-4">
-                                    <div class="abox">
-                                        <div class="vector">
-                                            <img src="assets/img/100per.png" class="img-fluid">
-                                        </div>
-                                        <p>Satisfaction Guarantee</p>
-                                    </div>
-                                </div>
-                                <div class="col border pt-lg-0 pt-4">
-                                    <div class="abox three-four">
-                                        <img src="assets/img/relief.png" class="img-fluid">
-                                        <p>Insant Results</p>
-                                    </div>
-                                </div>
-                                <div class="col  pt-lg-0 pt-4">
-                                    <div class="abox three-four">
-                                        <img src="assets/img/scinetiestpro.svg" class="img-fluid">
-                                        <p>Scientifically Proof</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <?php include 'includes/achivement.php' ?>
         <!-- specification section end -->
 
 
@@ -91,7 +150,7 @@
         <section style="background: url(./assets/img/about-bg.png) no-repeat center center / cover;">
             <div class="container py-lg-5 py-4">
                 <div class="row">
-                    <div class="col-md-8 order-1 order-lg-0">
+                    <div class="col-md-8 order-1 order-lg-0" data-aos="fade-up-left">
                         <div class="about_content">
                             <div class="about_heading">
                                 <h2>Best, highly qualified clinicians who understand dentistry with holistic approach
@@ -109,11 +168,11 @@
                                     & Invisalign. She has the experience of more than.</p>
                             </div>
                             <div class="know_more">
-                                <a href="" class="btn">Know More</a>
+                                <a href="about.php" class="btn">Know More</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 order-0 order-lg-1 mb-4 mb-lg-0">
+                    <div class="col-md-4 order-0 order-lg-1 mb-4 mb-lg-0" data-aos="fade-up-right">
                         <img src="assets/img/about_us.png" alt="" class="img-fluid">
                     </div>
                 </div>
@@ -123,7 +182,7 @@
             <section>
                 <div style="background: linear-gradient(0deg, #39cabb33, #39cabb0a);" class="extra_padding">
                     <div class="container py-md-5 py-2">
-                        <div class="row">
+                        <div class="row" data-aos="fade-up">
                             <div class="col-md-10 mx-auto my-md-5 my-2">
                                 <div class="service_heading">
                                     <h2>We have specialists for every segment of dentistry</h2>
@@ -134,7 +193,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row pb-md-5">
+                        <div class="row pb-md-5" data-aos="fade-right">
 
                             <div class="col-md-4">
                                 <div class="service_bx rounded position-relative">
@@ -206,7 +265,7 @@
 
                         </div>
                         <!-- section row -->
-                        <div class="row py-md-5">
+                        <div class="row py-md-5" data-aos="fade-left">
 
                             <div class="col-md-4">
                                 <div class="service_bx rounded position-relative">
@@ -308,7 +367,7 @@
                         </linearGradient>
                     </defs>
                 </svg>
-                <div class="plan_content">
+                <div class="plan_content" data-aos="fade-right">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6">
@@ -332,7 +391,7 @@
                                         </div>
                                     </div>
                                     <div class="dent_btn">
-                                        <a href="">Book an appointment</a>
+                                        <a href="contact.php">Book an appointment</a>
                                     </div>
                                 </div>
                             </div>
@@ -354,9 +413,9 @@
                                 <h2>What Our Patients Say About Us !</h2>
                             </div>
                         </div>
-                        <div class="col-md-12">
+                        <div class="col-md-12" data-aos="zoom-in">
                             <div class="customer-slide">
-                                <div class="owl-carousel owl-theme owl-loaded owl-drag" id="carousel1">
+                                <div class="owl-carousel owl-theme owl-loaded owl-drag" id="review">
 
                                     <div class="owl-stage-outer">
                                         <div class="owl-stage"
@@ -677,6 +736,29 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- youtube video section start -->
+                <section class="video_section">
+                    <div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 m-auto">
+                                    <div class="video_heading">
+                                        <h2>braces & faces superspeciality dental care</h2>
+                                    </div>
+                                </div>
+                                <div class="youtube_video">
+                                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1cNlQ5q5XBM"
+                                        title="Welcome to Braces &amp; Faces Super speciality Dental Care"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- youtube video section end -->
         </section>
         <!-- Testimonial  section end -->
 
@@ -819,15 +901,43 @@
                             </div>
                         </div>
 
-                        <div class="col-md-12 border-right-0 border-left-0 border-secondary">
+                        <div class="col-md-12 m_blog_s border-top border-bottom border-secondary py-md-4 py-3">
                             <div class="row">
                                 <div class="col-md-4">
-
+                                    <div class="blog_s">
+                                        <div class="b_pic">
+                                            <img src="assets/img/blog_s.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="b_content">
+                                            <h2>Risk Intelligence</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+                                        </div>
+                                    </div>
                                 </div>
 
-                                <div class="col-md-4"></div>
+                                <div class="col-md-4 border-start border-end border-secondary">
+                                    <div class="blog_s">
+                                        <div class="b_pic">
+                                            <img src="assets/img/blog_s.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="b_content">
+                                            <h2>Risk Intelligence</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+                                        </div>
+                                    </div>
+                                </div>
 
-                                <div class="col-md-4"></div>
+                                <div class="col-md-4">
+                                    <div class="blog_s">
+                                        <div class="b_pic">
+                                            <img src="assets/img/blog_s.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="b_content">
+                                            <h2>Risk Intelligence</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -849,9 +959,13 @@
         <!-- Footer links -->
         <?php include './includes/footer-links.php' ?>
 
+        <!-- modal -->
+
+
+        <!-- carousel script -->
         <script>
             // owl carousel js
-            $("#carousel1").owlCarousel({
+            $("#hero").owlCarousel({
                 loop: true,
                 margin: 10,
                 nav: true,
@@ -867,6 +981,27 @@
                     },
                 },
             });
+            $("#review").owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    600: {
+                        items: 1,
+                    },
+                    1000: {
+                        items: 1,
+                    },
+                },
+            });
+        </script>
+
+        <!-- AOS Animation -->
+        <script>
+            AOS.init();
         </script>
     </body>
 

@@ -7,7 +7,7 @@
                 <div class="col-md-4">
                     <div class="footer_about">
                         <div class="footer_logo">
-                            <img src="assets/img/logo_w.png" alt="" class="img-fluid">
+                            <img src="assets/img/logo.png" alt="" class="img-fluid">
                         </div>
                         <div class="footer_para">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies tincidunt
@@ -16,7 +16,7 @@
                         <div class="footer_social_icon">
                             <a href="https://instagram.com/braces_and_faces_?igshid=MzRlODBiNWFlZA==" target="_blank"><span><i
                                         class="fa-brands fa-instagram" style="color: #39CABB;"></i></span></a>
-                            <a href="https://youtube.com/@dr.satyajitwadje8936" target="_blank"> <span> <i class="fa-brands fa-youtube"
+                            <a href="https://www.youtube.com/channel/UCqATnerrYP0cncgMW69MF8Q" target="_blank"> <span> <i class="fa-brands fa-youtube"
                                         style="color: #39CABB;"></i></span></a>
                             <a href="https://www.linkedin.com/in/dr-shubhangi-sangvikar-3168a590" target="_blank"> <span><i
                                         class="fa-brands fa-linkedin" style="color: #39CABB;"></i></span></a>
@@ -33,8 +33,6 @@
                             <li><a href="why-c-us.php"> Why choose us </a></li>
                             <li><a href="team.php"> Meet our Team </a></li>
                             <li><a href="blog.php"> Our Blogs </a></li>
-                            <li><a href="Careers"> Careers </a></li>
-                            <li><a href="KbDoc for Good"> KbDoc for Good </a></li>
                             <li><a href="contact.php"> Contact Us </a></li>
                         </ul>
                     </div>
@@ -44,13 +42,13 @@
                     <div class="Footer_links">
                         <h2>Treatments</h2>
                         <ul>
-                            <li><a href="Invisalign"> Invisalign </a></li>
-                            <li><a href="Dental Implants"> Dental Implants </a></li>
-                            <li><a href="General Dentistry"> General Dentistry </a></li>
-                            <li><a href="Emergency Dentist"> Emergency Dentist </a></li>
-                            <li><a href="Teeth Whitening"> Teeth Whitening </a></li>
-                            <li><a href="Cosmetic Dentistry"> Cosmetic Dentistry </a></li>
-                            <li><a href="Orthodontic Treatment"> Orthodontic Treatment </a></li>
+                            <li><a href="/invisalign.php"> Invisalign </a></li>
+                            <li><a href="/implant.php"> Dental Implants </a></li>
+                            <li><a href="/General Dentistry"> General Dentistry </a></li>
+                            <li><a href="/mouth-re.php"> Emergency Dentist </a></li>
+                            <li><a href="/whitening.php"> Teeth Whitening </a></li>
+                            <li><a href="/cosmetic.php"> Cosmetic Dentistry </a></li>
+                            <li><a href="/single-sitting.php"> Single Sitting ( RCT ) </a></li>
                         </ul>
                     </div>
                 </div>

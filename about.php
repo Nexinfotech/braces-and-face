@@ -68,7 +68,7 @@
                                         the best strategic orthodontics & Invisalign.</p>
                                 </div>
                                 <div class="know_more">
-                                    <a href="" class="btn">Contact Us</a>
+                                    <a href="contact.php" class="btn">Contact Us</a>
                                 </div>
                             </div>
                             <div class="col-md-4 order-0 order-lg-1 text-end mb-3 mb-lg-0">
@@ -90,7 +90,8 @@
                             </div>
                             <div class="col-md-10 m-auto">
                                 <div class="about_txt">
-                                    <p>Dr.Shubhangi has the experience of more than 7 years and has successfully completed 2,000+
+                                    <p>Dr.Shubhangi has the experience of more than 7 years and has successfully
+                                        completed 2,000+
                                         ortho cases and done 500+ Aligner cases. Dr Satyajit passed is under graduation
                                         from CSMSS dental college Sambhaji Nagar & PG from Dr D Y Patil Dental college
                                         in Oral & Maxillofacial Surgery in
@@ -112,7 +113,7 @@
             <!-- mission vision section start -->
             <section class="py-md-5 py-2">
                 <div class="m_v_container">
-                    <div class="mission">
+                    <div class="mission" data-aos="flip-left">
                         <div class="mission_content">
                             <h2>our mission</h2>
                             <p>One of the most trusted travel group providing best services
@@ -123,7 +124,7 @@
                                 lorem ipsum.</p>
                         </div>
                     </div>
-                    <div class="vision">
+                    <div class="vision" data-aos="fade-right">
                         <div class="vision_content">
                             <h2>Our Vision</h2>
                             <p>One of the most trusted travel group providing best services
@@ -154,40 +155,21 @@
                                                     <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
                                                         <div class="item">
                                                             <div class="client-image">
-                                                                <img src="assets/images/teeth/client-1.jpeg"
-                                                                    class="img-fluid">
+                                                                <img src="assets/img/all_team1.png" class="img-fluid">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
                                                         <div class="item">
                                                             <div class="client-image">
-                                                                <img src="assets/images/teeth/client-2.jpeg"
-                                                                    class="img-fluid">
+                                                                <img src="assets/img/all_team2.png" class="img-fluid">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
                                                         <div class="item">
                                                             <div class="client-image">
-                                                                <img src="assets/images/teeth/client-3.jpeg"
-                                                                    class="img-fluid">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
-                                                        <div class="item">
-                                                            <div class="client-image">
-                                                                <img src="assets/images/teeth/client-4.jpeg"
-                                                                    class="img-fluid">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
-                                                        <div class="item">
-                                                            <div class="client-image">
-                                                                <img src="assets/images/teeth/client-5.jpeg"
-                                                                    class="img-fluid">
+                                                                <img src="assets/img/all_team3.png" class="img-fluid">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -197,7 +179,7 @@
                                     </div>
 
                                     <div class="dent_btn m-0 m-auto w-50">
-                                        <a href="">Book Your Free Appointment Now </a>
+                                        <a href="contact.php">Book Your Free Appointment Now </a>
                                     </div>
                                 </div>
                             </div>

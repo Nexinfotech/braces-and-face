@@ -130,6 +130,10 @@
     background-color: #fff;
 }
 
+.header_lgo {
+    width: 56%;
+}
+
 .navBarLinks a {
     font-size: 1em;
     font-weight: 600;
@@ -178,6 +182,26 @@
     text-transform: capitalize;
 }
 
+
+.hero_section .owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    display: none;
+}
+
+.hero_section .owl-theme .owl-dots,
+.owl-theme .owl-nav {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    display: none;
+}
+
+
 /* ======================= hero section end ===========================================  */
 
 
@@ -216,6 +240,17 @@
     font-weight: 400;
     color: #039d8d;
     font-size: 20px;
+    margin: 0;
+}
+
+.abox h2 {
+    color: #448C7F;
+    text-align: center;
+    font-family: Titillium Web;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 157.1%;
     margin: 0;
 }
 
@@ -284,6 +319,15 @@
 .service_heading p {
     text-align: center;
     font-size: 1.2rem;
+}
+
+.service_bx {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
 }
 
 .services_content {
@@ -430,7 +474,7 @@
     align-content: center;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 0px 23px 4px rgb(0 0 0 / 25%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     border-radius: 8px;
     margin: 2rem 5rem;
     padding: 2rem 3rem 3rem;
@@ -489,7 +533,35 @@
 
 /* ======================= Testimonial or our clinic section end ===========================================  */
 
+/* ======================== video section start here ======================================== */
 
+.video_section {
+    padding: 6rem 0rem 2rem 0rem;
+}
+
+.video_heading h2 {
+    color: #448C7F;
+    text-align: center;
+    font-family: Titillium Web;
+    font-size: 56px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 4rem;
+    line-height: 75px;
+}
+
+.youtube_video iframe {
+    border: 5px solid #448C7F;
+    padding: 0;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ======================== video section end here ======================================== */
 
 /* =======================  our clinic section start ===========================================  */
 .clinic_heading h1 {
@@ -596,7 +668,13 @@
     transition: all 0.5s;
 }
 
-.blog_card:hover {
+.blog_bx,
+.blog_s {
+    border-radius: 16px;
+    transition: all ease-in-out 0.5s;
+}
+
+.blog_bx:hover {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -621,6 +699,13 @@
     line-height: normal;
 }
 
+.m_blog_s {
+    margin-top: 1rem;
+}
+
+
+
+
 /* =======================  Blog section end ===========================================  */
 
 
@@ -642,8 +727,12 @@
     padding: 25px 45px;
     border-radius: 20px;
     background: #D2F3EF;
+    text-align: center;
 }
 
+.partner_card.pad {
+    padding: 53px 45px;
+}
 
 /* =======================  partnership section end ===========================================  */
 
@@ -831,7 +920,7 @@ footer {
 
 .about_vector_services {
     position: absolute;
-    bottom: -275px;
+    bottom: -329px;
     right: 0px;
     width: 100%;
     height: 100%;
@@ -1068,8 +1157,6 @@ footer {
 }
 
 .client-review .client-slide .client-image {
-    border: 3px solid #12ada9;
-    border-radius: 7px;
     min-height: 250px;
     display: flex;
 }
@@ -1577,6 +1664,14 @@ footer {
     /* 142.857% */
 }
 
+.contact_form .form-control:focus,
+.contact_form .form-select:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #448C7F !important;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem #448c7f86;
+}
 
 .contact_form .form-control,
 .form-select {
@@ -1591,6 +1686,11 @@ footer {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.contact_form .intl-tel-input {
+    position: relative;
+    display: block;
 }
 
 .contact_us_button {
@@ -1619,3 +1719,38 @@ footer {
 .nav_bg .offcanvas-header {
     background: #39cabb;
 }
+
+/* blog section */
+
+.blog_s {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.b_content {
+    margin-left: 1rem;
+}
+
+.b_content h2 {
+    color: #448C7F;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.b_content p {
+    color: #737576;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+/* blog section */

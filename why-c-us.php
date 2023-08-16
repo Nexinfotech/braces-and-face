@@ -29,7 +29,7 @@
                                 <p>Best, highly qualified clinicians who understand dentistry with holistic approach
                                 </p>
                                 <div class="book_btn_for_service_page">
-                                    <a href="">Book an appointment</a>
+                                    <a href="contact.php">Book an appointment</a>
                                 </div>
                             </div>
                         </div>
@@ -151,7 +151,7 @@
                                             </div>
                                         </div>
                                         <div class="dent_btn">
-                                            <a href="">Book an appointment</a>
+                                            <a href="contact.php">Book an appointment</a>
                                         </div>
                                     </div>
                                 </div>

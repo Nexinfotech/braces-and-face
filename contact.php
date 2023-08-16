@@ -11,7 +11,8 @@
         <!-- Header links -->
         <?php include './includes/header-links.php' ?>
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/8.4.6/css/intlTelInput.css"
+            rel="stylesheet" />
     </head>
 
     <body>
@@ -31,7 +32,7 @@
                                 <!-- <p>Best, highly qualified clinicians who understand dentistry with holistic approach
                                 </p> -->
                                 <!-- <div class="book_btn_for_service_page">
-                                    <a href="">Book an appointment</a>
+                                    <a href="contact.php">Book an appointment</a>
                                 </div> -->
                             </div>
                         </div>
@@ -62,7 +63,7 @@
                                 </div>
                                 <div class="right">
                                     <div class="contact_form">
-                                        <form class="row g-3">
+                                        <form class="row company_form g-3">
                                             <div class="col-md-6">
                                                 <label for="text" class="form-label">First name*</label>
                                                 <input type="text" class="form-control" id="text" name="text"
@@ -81,19 +82,13 @@
                                             <div class="col-md-6">
                                                 <label for="phone" class="form-label">Phone number*</label>
                                                 <input id="phone" type="tel" class="form-control" name="phone"
-                                                    placeholder="Eg : 634816161" />
+                                                    placeholder="Eg : 984816161"
+                                                    onkeypress="if ( isNaN(this.value + String.fromCharCode(event.keyCode) )) return false;" />
                                             </div>
                                             <div class="col-md-12">
                                                 <label for="age" class="form-label">Age*</label>
-                                                <select id="age" class="form-select" name="age">
-                                                    <option selected>Choose...</option>
-                                                    <option> Between 18 to 24</option>
-                                                    <option>Between 25 to 34</option>
-                                                    <option>Between 35 to 44</option>
-                                                    <option>Between 45 to 54</option>
-                                                    <option>Between 55 to 64</option>
-                                                    <option>Above 64</option>
-                                                </select>
+                                                <input id="age" type="number" class="form-control" name="age"
+                                                    placeholder="Your Age" />
                                             </div>
                                             <div class="col-md-12">
                                                 <label for="condition" class="form-label">Current condition *</label>
@@ -143,6 +138,25 @@
         <?php include './includes/footer.php' ?>
         <!-- Footer links -->
         <?php include './includes/footer-links.php' ?>
+
+        <!-- script for country code selection -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/8.4.7/js/intlTelInput.js"></script>
+        <script>
+            // -----Country Code Selection
+            $("#phone").intlTelInput({
+                utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/8.4.6/js/utils.js"
+            });
+        </script>
+        <!-- <script>
+            // -----Country Code Selection
+            $("#phone").intlTelInput({
+                initialCountry: "in",
+                separateDialCode: true,
+                utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.4/js/utils.js"
+            });
+        </script> -->
+
     </body>
 
 </html>

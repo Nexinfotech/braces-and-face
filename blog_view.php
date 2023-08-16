@@ -29,7 +29,7 @@
                                 <p>Best, highly qualified clinicians who understand dentistry with holistic approach
                                 </p>
                                 <!-- <div class="book_btn_for_service_page">
-                                    <a href="">Book an appointment</a>
+                                    <a href="contact.php">Book an appointment</a>
                                 </div> -->
                             </div>
                         </div>
@@ -68,7 +68,7 @@
                                             <a href="https://instagram.com/braces_and_faces_?igshid=MzRlODBiNWFlZA==" target="_blank">
                                                 <i class="fa-brands fa-instagram" style="color: #39CABB;"></i>
                                             </a>
-                                            <a href="https://youtube.com/@dr.satyajitwadje8936" target="_blank">
+                                            <a href="https://www.youtube.com/channel/UCqATnerrYP0cncgMW69MF8Q" target="_blank">
                                                 <i class="fa-brands fa-youtube" style="color: #39CABB;"></i>
                                             </a>
                                             <a href="https://www.linkedin.com/in/dr-shubhangi-sangvikar-3168a590" target="_blank">

@@ -18,10 +18,10 @@
         </div>
         <!-- top header end here -->
         <!-- main header start here  -->
-        <nav class="navbar navbar-expand-xl navbar-light nav_bg">
-            <div class="container py-lg-3 py-2">
+        <nav class="navbar navbar-expand-xl navbar-light nav_bg p-0">
+            <div class="container py-2">
                 <a href="index.php" class="navbar-brand">
-                    <img src="assets/img/logo.png" class="img-fluid header_lgo" width="200" alt="">
+                    <img src="assets/img/logo.png" class="img-fluid header_lgo" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas" aria-expanded="false"

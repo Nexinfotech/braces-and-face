@@ -29,7 +29,7 @@
                                 <p>Best, highly qualified clinicians who understand dentistry with holistic approach
                                 </p>
                                 <div class="book_btn_for_service_page">
-                                    <a href="">Book an appointment</a>
+                                    <a href="contact.php">Book an appointment</a>
                                 </div>
                             </div>
                         </div>
@@ -101,122 +101,33 @@
                                     </h2>
                                     <div class="client-slide">
                                         <div class="owl-carousel owl-theme owl-loaded owl-drag" id="carousel8">
-                                            <div class="owl-stage"
-                                                    style="transform: translate3d(-2176px, 0px, 0px); transition: all 0.25s ease 0s; width: 4789px;">
-                                                    <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
-                                                        <div class="item">
-                                                            <div class="client-image">
-                                                                <img src="assets/img/teeth/ba-1.jpeg"
-                                                                    class="img-fluid">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
-                                                        <div class="item">
-                                                            <div class="client-image">
-                                                                <img src="assets/img/teeth/ba-2.jpeg"
-                                                                    class="img-fluid">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="owl-item active"
-                                                        style="width: 425.333px; margin-right: 10px;">
-                                                        <div class="item">
-                                                            <div class="client-image">
-                                                                <img src="assets/img/teeth/ba-3.jpeg"
-                                                                    class="img-fluid">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="owl-item active"
-                                                        style="width: 425.333px; margin-right: 10px;">
-                                                        <div class="item">
-                                                            <div class="client-image">
-                                                                <img src="assets/img/teeth/ba-4.jpeg"
-                                                                    class="img-fluid">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="owl-item active"
-                                                        style="width: 425.333px; margin-right: 10px;">
-                                                        <div class="item">
-                                                            <div class="client-image">
-                                                                <img src="assets/img/teeth/ba-5.jpeg"
-                                                                    class="img-fluid">
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                            <div class="owl-stage-outer">
+                                    <div class="owl-stage"
+                                        style="transform: translate3d(-2176px, 0px, 0px); transition: all 0.25s ease 0s; width: 4789px;">
 
-                                                    <div class="owl-item"
-                                                        style="width: 425.333px; margin-right: 10px;">
-                                                        <div class="item">
-                                                            <div class="client-image">
-                                                                <img src="assets/img/teeth/ba-6.jpeg"
-                                                                    class="img-fluid">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    
-                                                    <div class="owl-item"
-                                                        style="width: 425.333px; margin-right: 10px;">
-                                                        <div class="item">
-                                                            <div class="client-image">
-                                                                <img src="assets/img/teeth/ba-7.jpeg"
-                                                                    class="img-fluid">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="owl-item"
-                                                        style="width: 425.333px; margin-right: 10px;">
-                                                        <div class="item">
-                                                            <div class="client-image">
-                                                                <img src="assets/img/teeth/ba-8.jpeg"
-                                                                    class="img-fluid">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="owl-item"
-                                                        style="width: 425.333px; margin-right: 10px;">
-                                                        <div class="item">
-                                                            <div class="client-image">
-                                                                <img src="assets/img/teeth/ba-9.jpeg"
-                                                                    class="img-fluid">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="owl-item"
-                                                        style="width: 425.333px; margin-right: 10px;">
-                                                        <div class="item">
-                                                            <div class="client-image">
-                                                                <img src="assets/img/teeth/ba-10.jpeg"
-                                                                    class="img-fluid">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="owl-item"
-                                                        style="width: 425.333px; margin-right: 10px;">
-                                                        <div class="item">
-                                                            <div class="client-image">
-                                                                <img src="assets/img/teeth/ba-11.jpeg"
-                                                                    class="img-fluid">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="owl-item"
-                                                        style="width: 425.333px; margin-right: 10px;">
-                                                        <div class="item">
-                                                            <div class="client-image">
-                                                                <img src="assets/img/teeth/ba-12.jpeg"
-                                                                    class="img-fluid">
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                        <div class="owl-item active" style="width: 425.333px; margin-right: 10px;">
+                                            <div class="item">
+                                                <div class="client-image">
+                                                    <img src="assets/img/teeth/ba-3.png" class="img-fluid">
                                                 </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item active" style="width: 425.333px; margin-right: 10px;">
+                                            <div class="item">
+                                                <div class="client-image">
+                                                    <img src="assets/img/teeth/ba-2.png" class="img-fluid">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="owl-item active" style="width: 425.333px; margin-right: 10px;">
+                                            <div class="item">
+                                                <div class="client-image">
+                                                    <img src="assets/img/teeth/ba-1.png" class="img-fluid">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                         </div>
                                     </div>
                                     <div class="dent_btn m-0 m-auto w-50">
