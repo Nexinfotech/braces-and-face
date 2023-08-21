@@ -22,121 +22,11 @@
 
         <!-- hero section start -->
         <section class="hero_section">
-            <div class="container-fluid py-lg-5 py-4 px-md-5 px-3">
-                <div class="row py-lg-5">
-                    <div class="owl-carousel owl-theme owl-loaded owl-drag" id="hero">
-                        <div class="owl-stage-outer">
-                            <div class="owl-stage"
-                                style="transform: translate3d(-2611px, 0px, 0px); transition: all 0.25s ease 0s; width: 4789px;">
-                                <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
-                                    <div class="item">
-
-                                        <div class="row" data-aos="fade-up">
-                                            <div class="col-md-6 order-1 order-lg-0">
-                                                <div class="left_box" data-aos="fade-up-right">
-                                                    <h2>
-                                                        <span> Exceptional Care</span>
-                                                        with Unmatched
-                                                        Expertise
-                                                    </h2>
-                                                    <div class="book_btn">
-                                                        <a href="contact.php">Book an appointment</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 order-0 order-lg-1">
-                                                <div class="right_box" data-aos="fade-up-left">
-                                                    <img src="assets/img/hero_img.png" alt="" class="img-fluid">
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
-                                    <div class="item">
-
-                                        <div class="row">
-                                            <div class="col-md-6 order-1 order-lg-0" data-aos="fade-up-right">
-                                                <div class="left_box">
-                                                    <h2>
-                                                        <span> pimple saudagar’s </span>
-                                                        professional Dentistry
-                                                        from last 10years
-                                                    </h2>
-                                                    <div class="book_btn">
-                                                        <a href="contact.php">Book an appointment</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 order-0 order-lg-1">
-                                                <div class="right_box">
-                                                    <img src="assets/img/hero_img_2.png" alt="" class="img-fluid">
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
-                                    <div class="item">
-
-                                        <div class="row">
-                                            <div class="col-md-6 order-1 order-lg-0">
-                                                <div class="left_box" data-aos="fade-up-right">
-                                                    <h2>
-                                                        <span> Comprehensive Care </span>
-                                                        with Unmatched
-                                                        Expertise.
-
-                                                    </h2>
-                                                    <div class="book_btn">
-                                                        <a href="contact.php">Book an appointment</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 order-0 order-lg-1">
-                                                <div class="right_box" data-aos="fade-up-left">
-                                                    <img src="assets/img/hero_img_3.png" alt="" class="img-fluid">
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
-                                    <div class="item">
-
-                                        <div class="row">
-                                            <div class="col-md-6 order-1 order-lg-0">
-                                                <div class="left_box">
-                                                    <h2>
-                                                        <span> Your great smile </span>
-                                                        begins with a
-                                                        great dentistry
-                                                    </h2>
-                                                    <div class="book_btn">
-                                                        <a href="contact.php">Book an appointment</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 order-0 order-lg-1">
-                                                <div class="right_box">
-                                                    <img src="assets/img/hero_img_4.png" alt="" class="img-fluid">
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="hero_video">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1cNlQ5q5XBM"
+                    title="Welcome to Braces &amp; Faces Super speciality Dental Care" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
             </div>
         </section>
         <!-- hero section end -->
@@ -149,23 +39,26 @@
         <!-- about us and also service section inside this section start -->
         <section style="background: url(./assets/img/about-bg.png) no-repeat center center / cover;">
             <div class="container py-lg-5 py-4">
-                <div class="row">
-                    <div class="col-md-8 order-1 order-lg-0" data-aos="fade-up-left">
+                <div class="row justify-content-between">
+                    <div class="col-md-7 order-1 order-lg-0" data-aos="fade-up-left">
                         <div class="about_content">
                             <div class="about_heading">
-                                <h2>Best, highly qualified clinicians who understand dentistry with holistic approach
-                                    for utmost care of each & every patient</h2>
+                                <h2>Best, highly qualified clinicians who <span>understand dentistry</span> with
+                                    holistic approach
+                                    for <span>utmost care of each </span> & every patient</h2>
                             </div>
                             <div class="about_para">
                                 <p>Braces Faces superspeciality dental care is founded by Dr.shubhangi
-                                    (MDS-Orthodontist) & <b>Dr Satyajit </b>( MDS-Oral & Maxillofacial surgeon) with
-                                    aims to
+                                    (MDS-Orthodontist) & Dr Satyajit ( MDS-Oral & Maxillofacial surgeon) with aims to
                                     provide unparalleled dental, orthodontic, implantology, customise implantology, oral
                                     cancer surgeries & maxillofacial surgery services at affordable prices. Dr Shubhangi
                                     is an Orthodontist & licences HAAD practiser in Abu Dhabi who graduated in dentistry
                                     from Shri Sai Dental college Vikarabad in 2010 and Also completed his post graduate
                                     fellowship in Orthodontics in 2015. She has learned the best strategic orthodontics
-                                    & Invisalign. She has the experience of more than.</p>
+                                    & Invisalign. She has the experience of more than 10 years and has successfully
+                                    completed 2,000+
+                                    ortho cases and done 500+ Aligner cases.
+                                </p>
                             </div>
                             <div class="know_more">
                                 <a href="about.php" class="btn">Know More</a>
@@ -174,6 +67,32 @@
                     </div>
                     <div class="col-md-4 order-0 order-lg-1 mb-4 mb-lg-0" data-aos="fade-up-right">
                         <img src="assets/img/about_us.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="row mt-5 justify-content-between">
+                    <div class="col-md-7 order-0 order-lg-1" data-aos="fade-up-left">
+                        <div class="about_content">
+                            <div class="about_heading">
+                                <h2>top <span>1% oral</span> & maxillofacial surgeon in india
+
+                            </div>
+                            <div class="about_para">
+                                <p>Dr Satyajit passed is under graduation from CSMSS dental college Sambhaji Nagar & PG
+                                    from Dr
+                                    D Y Patil Dental college in Oral & Maxillofacial Surgery in 2011.
+                                    For next two years he did his oral oncology fellowship IN BIACHRI,Hyderabad
+                                    He & his team provide the highest level services for oral surgery, implantology,
+                                    maxillofacial
+                                    surgery. Uplifted standards with sterilization, hygiene and care.
+                                    We have the latest equipment including in-house 3Shape Triose 3 intra oral scanner &
+                                    technique
+                                    which makes the treatment more pain free with quality control & safety.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 order-1 order-lg-0 mb-4 mb-lg-0" data-aos="fade-up-right">
+                        <img src="assets/img/about_us_2.png" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -210,7 +129,8 @@
                                                 perfect smile. They offer you all the benefits of conventional
                                                 orthodontics and spare you from the inconvenience and awkwardness of
                                                 metal brackets and wires.&nbsp;<a href="invisalign.php"
-                                                    style="color: #448C7F; font-weight:600;">Read More</a>
+                                                    style="color: #448C7F; font-weight:600;">Read More &nbsp; <i
+                                                        class="fa-solid fa-arrow-right"></i></a>
                                             </p>
                                         </div>
                                     </div>
@@ -282,7 +202,8 @@
                                                 corrected with Filling/ Restoration. In case the tooth decay reaches the
                                                 third layer and causes inflammation or infection of pulp, an RCT or
                                                 Endodontic Treatment is needed.&nbsp;<a href="single-sitting.php"
-                                                    style="color: #448C7F; font-weight:600;">Read More</a>
+                                                    style="color: #448C7F; font-weight:600;">Read More &nbsp; <i
+                                                        class="fa-solid fa-arrow-right"></i></a>
                                             </p>
                                         </div>
                                     </div>
@@ -306,7 +227,8 @@
                                                 appearance.Many dentists refer to themselves as "cosmetic dentists"
                                                 regardless of their specific education, specialty, training, and
                                                 experience in this field. &nbsp;<a href="cosmetic.php"
-                                                    style="color: #448C7F; font-weight:600;">Read More</a>
+                                                    style="color: #448C7F; font-weight:600;">Read More &nbsp; <i
+                                                        class="fa-solid fa-arrow-right"></i></a>
                                             </p>
                                         </div>
                                     </div>
@@ -328,13 +250,136 @@
                                                 emergency and also applies to severe infections that can be
                                                 life-threatening.
                                                 We also provide home emergency services that help patients
-                                                to quick pain relief.&nbsp;<a href="mouth-re.php"
-                                                    style="color: #448C7F; font-weight:600;">Read More</a>
+                                                to quick pain relief.
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+
+                        <div class="row py-md-5" data-aos="fade-left">
+
+                            <div class="col-md-4">
+                                <div class="service_bx rounded position-relative">
+                                    <div class="service_img">
+                                        <img src="assets/img/Periodontics.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="services_content">
+                                        <div class="s_heading">
+                                            <h2>Periodontics</h2>
+                                        </div>
+                                        <div class="s-Para">
+                                            <p>It is a multifactorial disease, whose consequences are not limited to the
+                                                oral cavity.
+                                                On the contrary, they could affect different remote organ systems and
+                                                cause unwanted events for
+                                                medically compromised people.The periodontal disease is not a local
+                                                disease, but it is one of the
+                                                major oral health issues worldwide.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="service_bx rounded position-relative">
+                                    <div class="service_img">
+                                        <img src="assets/img/Orthodontic.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="services_content">
+                                        <div class="s_heading">
+                                            <h2>Orthodontic Treatment</h2>
+                                        </div>
+                                        <div class="s-Para">
+                                            <p>Some dental conditions such as crowded teeth, improperly aligned teeth,
+                                                unevenly spaced teeth, protruding teeth, supernumerary teeth or missing
+                                                teeth, misaligned jaws
+                                                can lower the overall appearance of an individual and thus may lower his
+                                                or her confidence and
+                                                self esteem. Such dental problems are very common but it can be easily
+                                                treated with orthodontic
+                                                treatment.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="service_bx rounded position-relative">
+                                    <div class="service_img">
+                                        <img src="assets/img/general.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="services_content">
+                                        <div class="s_heading">
+                                            <h2>general dentistry</h2>
+                                        </div>
+                                        <div class="s-Para">
+                                            <p>Dental care is the practice of preventing and treating diseases of the
+                                                teeth,
+                                                gingiva and other tissues of the mouth Appropriately, adequate and
+                                                regular dental care can afford
+                                                the human person a healthy set of teeth. Unlike other human tissue, such
+                                                as skin, that
+                                                continuously grows and self-rejuvenates, dental structures generally
+                                                cannot repair themselves and
+                                                require regular care to retain their health and vitality.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row py-md-5" data-aos="fade-left">
+
+                            <div class="col-md-4">
+                                <div class="service_bx rounded position-relative">
+                                    <div class="service_img">
+                                        <img src="assets/img/mouthc.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="services_content">
+                                        <div class="s_heading">
+                                            <h2>full mouth rehabilitations</h2>
+                                        </div>
+                                        <div class="s-Para">
+                                            <p>A full mouth rehabilitation is a planned procedure to restore a healthy
+                                                oral cavity. In this process we make a replica of tooth structures that
+                                                have been lost due to some underlying factors such as old age, medical
+                                                conditions, any birth defects or any other condition. &nbsp;<a
+                                                    href="mouth-re.php" style="color: #448C7F; font-weight:600;">Read
+                                                    More &nbsp; <i class="fa-solid fa-arrow-right"></i></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="service_bx rounded position-relative">
+                                    <div class="service_img">
+                                        <img src="assets/img/denturesc.png" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="services_content">
+                                        <div class="s_heading">
+                                            <h2>dentures</h2>
+                                        </div>
+                                        <div class="s-Para">
+                                            <p>One of the common problems that affect the quality of life in elderly age
+                                                is complete or partial loss
+                                                of teeth. It literally makes them disables as they can’t eat or chew the
+                                                food they love and this
+                                                ultimately affects their overall health. &nbsp;<a href="dentures.php"
+                                                    style="color: #448C7F; font-weight:600;">Read
+                                                    More &nbsp; <i class="fa-solid fa-arrow-right"></i></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                         <!-- <div class="row my-md-5">
                             <div class="col-md-4 m-auto">
@@ -375,6 +420,9 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="selection_content">
+                                    <div class="plan_titlee">
+                                        <h2>Exceptional Care <span>with Unmatched</span> Expertise</h2>
+                                    </div>
                                     <div class="plan_heading">
                                         <h2>Get an oral plan for you & your family by
                                             becoming member of Braces Faces
@@ -384,9 +432,13 @@
                                         <div class="select">
                                             <!-- <i class="fa-solid fa-angle-down" style="color: #ffffff;"></i> -->
                                             <select>
-                                                <option value="1" selected>Select Your Plan</option>
-                                                <option value="2">No JS</option>
-                                                <option value="3">Nice!</option>
+                                                <option selected>Select Your Plan</option>
+                                                <option value="2">Smile Makeover</option>
+                                                <option value="3">Teeth Whitening</option>
+                                                <option value="3"> Orthodontics</option>
+                                                <option value="3"> Botox/Fillers</option>
+                                                <option value="3">Dental Implants </option>
+                                                <option value="3">Skin Rejuvenation </option>
                                             </select>
                                         </div>
                                     </div>
@@ -736,29 +788,29 @@
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <!-- youtube video section start -->
-                <section class="video_section">
-                    <div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-8 m-auto">
-                                    <div class="video_heading">
-                                        <h2>braces & faces superspeciality dental care</h2>
-                                    </div>
+            <!-- youtube video section start -->
+            <section class="video_section">
+                <div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 m-auto">
+                                <div class="video_heading">
+                                    <h2>our happy patients words</h2>
                                 </div>
-                                <div class="youtube_video">
-                                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1cNlQ5q5XBM"
-                                        title="Welcome to Braces &amp; Faces Super speciality Dental Care"
-                                        frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                        allowfullscreen></iframe>
-                                </div>
+                            </div>
+                            <div class="youtube_video">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1cNlQ5q5XBM"
+                                    title="Welcome to Braces &amp; Faces Super speciality Dental Care" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
-                </section>
-                <!-- youtube video section end -->
+                </div>
+            </section>
+            <!-- youtube video section end -->
         </section>
         <!-- Testimonial  section end -->
 
@@ -809,8 +861,7 @@
                                                     <h2>Timings</h2>
                                                 </div>
                                                 <div class="venue_para">
-                                                    <p>+91 9516285162 <br> +91 9011024599 &nbsp; +91 9970988812
-                                                    </p>
+                                                    <p> 09:00 a.m. to 05:00 p.m. <br>SAT - SUN OFF</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -837,7 +888,8 @@
                                                     <h2>Phone No</h2>
                                                 </div>
                                                 <div class="venue_para">
-                                                    <p> 09:00 a.m. to 05:00 p.m. <br>SAT - SUN OFF</p>
+                                                    <p>+91 9516285162 <br> +91 9011024599 &nbsp; +91 9970988812
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -865,7 +917,7 @@
                         <div class="col-md-4">
                             <div class="blog_bx">
                                 <div class="blog_card">
-                                    <img src="assets/img/blog_1.png" alt="" class="img-fluid">
+                                    <img src="assets/img/b1.png" alt="" class="img-fluid">
                                     <div class="blog_txt">
                                         <h4>Risk Intelligence</h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -878,7 +930,7 @@
                         <div class="col-md-4">
                             <div class="blog_bx">
                                 <div class="blog_card">
-                                    <img src="assets/img/blog_1.png" alt="" class="img-fluid">
+                                    <img src="assets/img/b2.png" alt="" class="img-fluid">
                                     <div class="blog_txt">
                                         <h4>Risk Intelligence</h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -891,7 +943,7 @@
                         <div class="col-md-4">
                             <div class="blog_bx">
                                 <div class="blog_card">
-                                    <img src="assets/img/blog_1.png" alt="" class="img-fluid">
+                                    <img src="assets/img/b3.png" alt="" class="img-fluid">
                                     <div class="blog_txt">
                                         <h4>Risk Intelligence</h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -901,7 +953,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-12 m_blog_s border-top border-bottom border-secondary py-md-4 py-3">
+                        <!-- <div class="col-md-12 m_blog_s border-top border-bottom border-secondary py-md-4 py-3">
                             <div class="row">
                                 <div class="col-md-4">
                                     <div class="blog_s">
@@ -939,7 +991,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
                     </div>
 

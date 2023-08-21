@@ -10,16 +10,18 @@
                             <img src="assets/img/logo.png" alt="" class="img-fluid">
                         </div>
                         <div class="footer_para">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies tincidunt
-                                auctor viverra vel diam. Feugiat at interdum at elit.</p>
+                            <p>Experience a stunning smile transformation at our Braces and Face Clinic. Our expert team
+                                is dedicated to enhancing your dental health and facial aesthetics, giving you the
+                                confidence you deserve.</p>
                         </div>
                         <div class="footer_social_icon">
-                            <a href="https://instagram.com/braces_and_faces_?igshid=MzRlODBiNWFlZA==" target="_blank"><span><i
-                                        class="fa-brands fa-instagram" style="color: #39CABB;"></i></span></a>
-                            <a href="https://www.youtube.com/channel/UCqATnerrYP0cncgMW69MF8Q" target="_blank"> <span> <i class="fa-brands fa-youtube"
+                            <a href="https://instagram.com/braces_and_faces_?igshid=MzRlODBiNWFlZA=="
+                                target="_blank"><span><i class="fa-brands fa-instagram"
                                         style="color: #39CABB;"></i></span></a>
-                            <a href="https://www.linkedin.com/in/dr-shubhangi-sangvikar-3168a590" target="_blank"> <span><i
-                                        class="fa-brands fa-linkedin" style="color: #39CABB;"></i></span></a>
+                            <a href="https://www.youtube.com/channel/UCqATnerrYP0cncgMW69MF8Q" target="_blank"> <span>
+                                    <i class="fa-brands fa-youtube" style="color: #39CABB;"></i></span></a>
+                            <a href="https://www.linkedin.com/in/dr-shubhangi-sangvikar-3168a590" target="_blank">
+                                <span><i class="fa-brands fa-linkedin" style="color: #39CABB;"></i></span></a>
                             <!-- <a href="http://"><span><i class="fa-brands fa-vimeo-v" style="color: #39CABB;"></i></span></a> -->
                         </div>
                     </div>
@@ -57,13 +59,21 @@
                     <div class="Footer_links">
                         <h2>Location</h2>
                         <ul>
-                            <li><a href="Invisalign"> Invisalign </a></li>
-                            <li><a href="Dental Implants"> Dental Implants </a></li>
-                            <li><a href="General Dentistry"> General Dentistry </a></li>
-                            <li><a href="Emergency Dentist"> Emergency Dentist </a></li>
-                            <li><a href="Teeth Whitening"> Teeth Whitening </a></li>
-                            <li><a href="Cosmetic Dentistry"> Cosmetic Dentistry </a></li>
-                            <li><a href="Orthodontic Treatment"> Orthodontic Treatment </a></li>
+                            <li>
+                                <a href="javascript:void(0)"> <b>Address :</b> Commercial Complex, ROSE ICON, 3rd Floor , 301, Pimple
+                                    Saudagar, Pune, Maharashtra 411027
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:919516285162"> <b>Phone : </b> +91 9516285162</a>
+                                <a href="tel:+919011024599"> +91 9011024599 </a>
+                                <a href="tel:+919970988812"> +91 9970988812 </a>
+                            </li>
+                            <li> 
+                                <a href="javascript:void(0)"> <b>Time : </b> 09:00 A.M. To 05:00 P.M.
+                                    SAT - SUN OFF
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>

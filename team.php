@@ -63,24 +63,21 @@
                                                     <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
                                                         <div class="item">
                                                             <div class="client-image">
-                                                                <img src="assets/img/team1.png"
-                                                                    class="img-fluid">
+                                                                <img src="assets/img/team1.png" class="img-fluid">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
                                                         <div class="item">
                                                             <div class="client-image">
-                                                                <img src="assets/img/team2.png"
-                                                                    class="img-fluid">
+                                                                <img src="assets/img/team2.png" class="img-fluid">
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
                                                         <div class="item">
                                                             <div class="client-image">
-                                                                <img src="assets/img/team3.png"
-                                                                    class="img-fluid">
+                                                                <img src="assets/img/team3.png" class="img-fluid">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -200,6 +197,9 @@
                                                 Superspeciality Dental Care.</h2>
                                         </div>
                                         <div class="plan_selection">
+                                            <div class="plan_titlee">
+                                                <h2>Exceptional Care <span>with Unmatched</span> Expertise</h2>
+                                            </div>
                                             <div class="select">
                                                 <!-- <i class="fa-solid fa-angle-down" style="color: #ffffff;"></i> -->
                                                 <select>

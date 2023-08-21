@@ -59,7 +59,7 @@
                                         <h2>Contact us</h2>
                                         <p>Let us know how we can help you.</p>
                                     </div>
-                                    <div class="left_num"> Call us at <a href="tel:+">1234567898</a></div>
+                                    <div class="left_num"> Call us at <a href="tel:+919516285162">+91 9516285162</a></div>
                                 </div>
                                 <div class="right">
                                     <div class="contact_form">
@@ -82,7 +82,7 @@
                                             <div class="col-md-6">
                                                 <label for="phone" class="form-label">Phone number*</label>
                                                 <input id="phone" type="tel" class="form-control" name="phone"
-                                                    placeholder="Eg : 984816161"
+                                                    placeholder="Eg : 9516285162"
                                                     onkeypress="if ( isNaN(this.value + String.fromCharCode(event.keyCode) )) return false;" />
                                             </div>
                                             <div class="col-md-12">

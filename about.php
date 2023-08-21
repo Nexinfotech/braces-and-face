@@ -85,9 +85,6 @@
                 <div>
                     <div class="container py-md-5 py-2">
                         <div class="row">
-                            <div class="col-md-4 m-auto mb-3">
-                                <img src="assets/img/she.jpeg" alt="" class="img-fluid">
-                            </div>
                             <div class="col-md-10 m-auto">
                                 <div class="about_txt">
                                     <p>Dr.Shubhangi has the experience of more than 7 years and has successfully
@@ -103,6 +100,36 @@
                                         pain free with quality
                                         control & safety</p>
                                 </div>
+                                <div class="client-slide my-lg-5 my-4">
+                                    <div class="owl-carousel owl-theme owl-loaded owl-drag" id="carouselmeett">
+                                        <div class="owl-stage-outer">
+                                            <div class="owl-stage"
+                                                style="transform: translate3d(-2611px, 0px, 0px); transition: all 0.25s ease 0s; width: 4789px;">
+                                                <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
+                                                    <div class="item">
+                                                        <div class="client-image">
+                                                            <img src="assets/img/tm-1.png" class="img-fluid">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
+                                                    <div class="item">
+                                                        <div class="client-image">
+                                                            <img src="assets/img/tm-2.png" class="img-fluid">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="owl-item" style="width: 425.333px; margin-right: 10px;">
+                                                    <div class="item">
+                                                        <div class="client-image">
+                                                            <img src="assets/img/tm-3.png" class="img-fluid">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -113,7 +140,7 @@
             <!-- mission vision section start -->
             <section class="py-md-5 py-2">
                 <div class="m_v_container">
-                    <div class="mission" data-aos="flip-left">
+                    <div class="mission">
                         <div class="mission_content">
                             <h2>our mission</h2>
                             <p>One of the most trusted travel group providing best services
@@ -124,7 +151,7 @@
                                 lorem ipsum.</p>
                         </div>
                     </div>
-                    <div class="vision" data-aos="fade-right">
+                    <div class="vision">
                         <div class="vision_content">
                             <h2>Our Vision</h2>
                             <p>One of the most trusted travel group providing best services
@@ -209,6 +236,22 @@
         <script>
             // owl carousel js
             $("#carouselmeet").owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    600: {
+                        items: 2,
+                    },
+                    1000: {
+                        items: 3,
+                    },
+                },
+            });
+            $("#carouselmeett").owlCarousel({
                 loop: true,
                 margin: 10,
                 nav: true,

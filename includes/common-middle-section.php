@@ -1,26 +1,4 @@
-<!-- common middle section start -->
-<section style="background: rgba(57, 202, 187, 0.90);">
-    <div>
-        <div class="container py-md-5 py-2">
-            <div class="row align-items-center">
-                <div class="col-md-9 order-1 order-lg-0 order-md-0">
-                    <div class="common_heading">
-                        <h2>At Impression Dental Care, Dr.Satyajit has placed more than 1000+ successful
-                            implants with painless technique & latest equipment.</h2>
-                        <p>Contact us to schedule an initial assessment session.</p>
-                        <div class="appointment_btn">
-                            <a href="contact.php">Book an appointment</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-2 order-0 order-lg-1 order-md-1">
-                    <img src="./assets/img/common_teeth_vector.png" alt="" class="img-fluid common_teeth_vector">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 <!-- specification section start -->
 <section>
     <div class="specs_container">

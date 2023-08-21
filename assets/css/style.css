@@ -1,8 +1,6 @@
 /* css Reset */
 * {
     font-family: 'Poppins', sans-serif;
-    font-family: 'Rufina', serif;
-    font-family: 'Titillium Web', sans-serif;
 }
 
 :root {
@@ -42,6 +40,8 @@
     font-size: 1em;
     font-weight: 500;
     margin-left: 1rem;
+    font-family: Poppins;
+
 }
 
 .book_btn {
@@ -64,7 +64,7 @@
 }
 
 .book_btn_for_service_page {
-    border-radius: 46.5px;
+    border-radius: 8px;
     background: #FFF;
     padding: 10px 10px;
     width: 40%;
@@ -84,7 +84,7 @@
 
 .dent_btn {
     margin-top: 1rem;
-    border-radius: 46.5px;
+    border-radius: 8px;
     background: var(--theme-color);
     padding: 10px 10px;
     width: 70%;
@@ -114,7 +114,7 @@
     height: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .header_time,
@@ -131,13 +131,17 @@
 }
 
 .header_lgo {
-    width: 56%;
+    width: 80%;
 }
 
 .navBarLinks a {
-    font-size: 1em;
+    color: #595959;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
     font-weight: 600;
-    color: #000;
+    line-height: normal;
+    text-transform: capitalize;
 }
 
 /* main header end */
@@ -151,54 +155,9 @@
     background-size: cover;
 }
 
-/* left box */
-
-.left_box h2 {
-    font-size: 5rem;
-    color: #fff;
-    font-family: Rufina;
-}
-
-.left_box h2 span {
-    font-size: 5rem;
-    color: #4A6F85;
-    font-family: Rufina;
-}
-
-.book_btn {
-    margin-top: 4rem;
-    border-radius: 46.5px;
-    background: #FFF;
-    padding: 10px 10px;
-    width: 55%;
-    text-align: center;
-}
-
-.book_btn a {
-    font-size: 1.5em;
-    font-weight: 600;
-    color: #000;
-    text-decoration: none;
-    text-transform: capitalize;
-}
-
-
-.hero_section .owl-carousel .owl-nav button.owl-next,
-.owl-carousel .owl-nav button.owl-prev,
-.owl-carousel button.owl-dot {
-    background: 0 0;
-    color: inherit;
-    border: none;
-    padding: 0 !important;
-    font: inherit;
-    display: none;
-}
-
-.hero_section .owl-theme .owl-dots,
-.owl-theme .owl-nav {
-    text-align: center;
-    -webkit-tap-highlight-color: transparent;
-    display: none;
+.hero_video {
+    width: 100%;
+    height: 600px;
 }
 
 
@@ -233,6 +192,10 @@
 .achieve .border {
     border: none !important;
     border-right: 3px solid #039d8d !important;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .achieve .abox p {
@@ -246,8 +209,8 @@
 .abox h2 {
     color: #448C7F;
     text-align: center;
-    font-family: Titillium Web;
-    font-size: 45px;
+    font-family: Poppins;
+    font-size: 38px;
     font-style: normal;
     font-weight: 600;
     line-height: 157.1%;
@@ -269,10 +232,22 @@
 
 .about_heading h2 {
     color: #448C7F;
-    font-size: 2.2rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 48px;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 156%;
+    /* 85.8px */
+    text-transform: capitalize;
+}
+
+.about_heading h2 span {
+    color: #4A6F85;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 156%;
     text-transform: capitalize;
 }
 
@@ -309,7 +284,7 @@
 .service_heading h2 {
     color: #448C7F;
     text-align: center;
-    font-size: 2.9rem;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -384,14 +359,14 @@
     position: relative;
     top: -108px;
     width: 100%;
-    max-height: 650px;
+    min-height: 750px;
 }
 
 .plan_section_2 {
     position: relative;
     top: 90px;
     width: 100%;
-    max-height: 650px;
+    min-height: 770px;
 }
 
 
@@ -450,6 +425,28 @@
     margin-bottom: 2rem;
 }
 
+.plan_titlee h2 {
+    color: #c9fffa;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 54px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 3rem;
+    padding: 2rem 0rem;
+}
+
+.plan_titlee h2 span {
+    color: #4A6F85;
+    font-family: Poppins;
+    font-size: 54px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
 
 /* ======================= plan section end ===========================================  */
 
@@ -542,7 +539,7 @@
 .video_heading h2 {
     color: #448C7F;
     text-align: center;
-    font-family: Titillium Web;
+    font-family: Poppins;
     font-size: 56px;
     font-weight: 700;
     text-transform: capitalize;
@@ -567,7 +564,7 @@
 .clinic_heading h1 {
     color: #448C7F;
     text-align: center;
-    font-family: Titillium Web;
+    font-family: Poppins;
     font-size: 96px;
     font-weight: 700;
     line-height: normal;
@@ -581,7 +578,7 @@
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    padding: 3rem 0;
+    padding: 5rem 0;
 }
 
 .clinic_heading {
@@ -590,7 +587,7 @@
 
 .clinic_heading h2 {
     color: #185C50;
-    font-family: Rufina;
+    font-family: Poppins;
     font-size: 36px;
     font-weight: 700;
     text-transform: capitalize;
@@ -609,7 +606,7 @@
 
 .venue_heading h2 {
     color: #448C7F;
-    font-family: Titillium Web;
+    font-family: Poppins;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -628,7 +625,7 @@
 .venue_para p {
     color: #000;
     text-align: center;
-    font-family: Titillium Web;
+    font-family: Poppins;
     font-size: 16px;
     font-weight: 600;
     line-height: 23px;
@@ -715,7 +712,7 @@
 
 .partner_heading h2 {
     color: #39CABB;
-    font-family: Titillium Web;
+    font-family: Poppins;
     font-size: 60px;
     font-weight: 700;
     line-height: normal;
@@ -831,7 +828,7 @@ footer {
 
 .Footer_links ul li a {
     color: #FFF;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
@@ -890,7 +887,7 @@ footer {
 
 .common_hero_heading h2 {
     color: #4A6F85;
-    font-family: Rufina;
+    font-family: Poppins;
     font-size: 85px;
     font-weight: 700;
     line-height: normal;
@@ -901,7 +898,7 @@ footer {
 .common_hero_heading p {
     color: #FFF;
     text-align: center;
-    font-family: Titillium Web;
+    font-family: Poppins;
     font-size: 32px;
     font-weight: 400;
     text-transform: capitalize;
@@ -985,7 +982,7 @@ footer {
 
 .mission_content h2 {
     color: #FFF;
-    font-family: Rufina;
+    font-family: Poppins;
     font-size: 42px;
     font-weight: 700;
     line-height: normal;
@@ -1006,7 +1003,7 @@ footer {
 
 .vision_content h2 {
     color: #FFF;
-    font-family: Rufina;
+    font-family: Poppins;
     font-size: 42px;
     font-weight: 700;
     line-height: normal;
@@ -1038,11 +1035,24 @@ footer {
 
 
 .service_section_heading h2 {
-    color: #448C7F;
+    color: #4C626F;
     text-align: center;
-    font-family: Rufina;
+    font-family: Poppins;
     font-size: 64px;
     font-weight: 700;
+    font-style: italic;
+    line-height: 150px;
+    text-transform: capitalize;
+    margin: 5px 0px 70px 0px;
+}
+
+.service_section_heading h2 span {
+    color: #448c7f;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+    font-style: italic;
     line-height: 150px;
     text-transform: capitalize;
     margin: 5px 0px 70px 0px;
@@ -1050,7 +1060,7 @@ footer {
 
 .chsc_heading h2 {
     color: #448C7F;
-    font-family: Titillium Web;
+    font-family: Poppins;
     font-size: 36px;
     font-style: normal;
     font-weight: 600;
@@ -1091,7 +1101,7 @@ footer {
 .floating_sticker p {
     color: #448C7F;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 26px;
     margin: 0;
@@ -1103,12 +1113,22 @@ footer {
 
 .common_heading h2 {
     color: #FFF;
-    font-family: Titillium Web;
+    font-family: Poppins;
     font-size: 24px;
+    font-style: normal;
     font-weight: 600;
     line-height: normal;
     text-transform: capitalize;
-    /* padding-right: 8rem; */
+}
+
+.common_heading h2 span {
+    color: #4A6F85;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
 }
 
 .common_heading p {
@@ -1144,12 +1164,15 @@ footer {
 }
 
 .client-review h2 {
+    color: #448C7F;
     text-align: center;
-    font-size: 36px;
+    font-family: Poppins;
+    font-size: 55px;
+    font-style: italic;
     font-weight: 700;
-    margin-bottom: 2.5rem;
-    line-height: 45px;
-    color: #12ada9;
+    line-height: 129.5%;
+    /* 71.225px */
+    text-transform: capitalize;
 }
 
 .client-review .client-slide {
@@ -1175,18 +1198,55 @@ footer {
     background-color: #12ada9;
 }
 
+/* client-slide */
+.client-slide .owl-carousel .owl-nav button.owl-prev,
+.client-slide .owl-carousel .owl-nav button.owl-next {
+    background: 0 0;
+    color: #fff;
+    border: none;
+    padding: 2px 10px 5px 10px !important;
+    font: inherit;
+    position: absolute;
+    top: 32%;
+    font-size: 40px;
+    line-height: 30px;
+    background-color: #12ada9;
+}
+
 .client-review .client-slide .owl-carousel .owl-nav button.owl-prev {
     left: -55px;
-    display: none;
+    display: block;
 }
 
 .client-review .client-slide .owl-carousel .owl-nav button.owl-next {
     right: -55px;
-    display: none;
+    display: block;
+}
+
+.client-review .client-slide .owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+    display: block !important;
+}
+
+/* client-slide */
+.client-slide .owl-carousel .owl-nav button.owl-prev {
+    left: -55px;
+    display: block;
+}
+
+.client-slide .owl-carousel .owl-nav button.owl-next {
+    right: -55px;
+    display: block;
+}
+
+.client-slide .owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+    display: block !important;
 }
 
 
-.client-review .owl-theme .owl-dots .owl-dot span {
+.client-review .owl-theme .owl-dots .owl-dot span,
+.client-slide .owl-theme .owl-dots .owl-dot span {
     width: 30px;
     height: 6px;
     margin: 5px 7px;
@@ -1203,6 +1263,16 @@ footer {
 }
 
 .client-review .owl-theme .owl-dots .owl-dot:hover span {
+    background: rgb(11, 128, 87);
+}
+
+/* client-slide */
+.client-slide .owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #39CABB;
+}
+
+.client-slide .owl-theme .owl-dots .owl-dot:hover span {
     background: rgb(11, 128, 87);
 }
 
@@ -1240,7 +1310,7 @@ footer {
 .why-choose h2 {
     color: #448C7F;
     text-align: center;
-    font-family: Rufina;
+    font-family: Poppins;
     font-size: 64px;
     font-weight: 700;
     line-height: normal;
@@ -1274,7 +1344,7 @@ footer {
 /* team start */
 .team.content p {
     color: #2D2D2D;
-    font-family: Titillium Web;
+    font-family: Poppins;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -1284,7 +1354,7 @@ footer {
 
 .team_member h2 {
     color: #448C7F;
-    font-family: Titillium Web;
+    font-family: Poppins;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
@@ -1294,7 +1364,7 @@ footer {
 
 .member p:nth-child(1) {
     color: #448C7F;
-    font-family: Titillium Web;
+    font-family: Poppins;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -1305,7 +1375,7 @@ footer {
 
 .member p:nth-child(2) {
     color: #A8A8A8;
-    font-family: Titillium Web;
+    font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -1333,7 +1403,7 @@ footer {
 /* blog section start */
 .b_heading h5 {
     color: #4C626F;
-    font-family: Titillium Web;
+    font-family: Poppins;
     font-size: 24px;
     font-weight: 700;
     line-height: 172.187%;
@@ -1342,7 +1412,7 @@ footer {
 
 .b_sheading h2 {
     color: #448C7F;
-    font-family: Titillium Web;
+    font-family: Poppins;
     font-size: 40px;
     font-weight: 700;
 }
@@ -1358,7 +1428,7 @@ footer {
 
 .b_l_heading h5 {
     color: #4C626F;
-    font-family: Titillium Web;
+    font-family: Poppins;
     font-size: 16px;
     font-weight: 600;
     line-height: 172.187%;
@@ -1367,7 +1437,7 @@ footer {
 
 .b_l_sheading h2 {
     color: #448C7F;
-    font-family: Titillium Web;
+    font-family: Poppins;
     font-size: 22px;
     font-weight: 600;
 }
@@ -1395,7 +1465,7 @@ footer {
 
 .side_bar_heading h2 {
     color: #448C7F;
-    font-family: Titillium Web;
+    font-family: Poppins;
     font-size: 32px;
     font-weight: 700;
     line-height: 157.687%;
@@ -1439,14 +1509,14 @@ footer {
     padding: 8px 16px;
     color: #4E4E4E;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
 }
 
 
 .social_heading h3 {
     color: #4C626F;
-    font-family: Titillium Web;
+    font-family: Poppins;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -1480,7 +1550,7 @@ footer {
 
 .view_txt h2 {
     color: #4B6C97;
-    font-family: Titillium Web;
+    font-family: Poppins;
     font-size: 24px;
     font-weight: 700;
     line-height: 172.187%;
@@ -1488,7 +1558,7 @@ footer {
 
 .view_txt p {
     color: #448C7F;
-    font-family: Titillium Web;
+    font-family: Poppins;
     font-size: 36px;
     font-weight: 700;
     line-height: normal;
@@ -1496,7 +1566,7 @@ footer {
 
 .view_social_links h3 {
     color: #4B6C97;
-    font-family: Titillium Web;
+    font-family: Poppins;
     font-size: 16px;
     font-weight: 700;
     line-height: 172.187%;
@@ -1536,7 +1606,7 @@ footer {
 
 .more_artical_heading h2 {
     color: #448C7F;
-    font-family: Titillium Web;
+    font-family: Poppins;
     font-size: 36px;
     font-weight: 700;
     line-height: 172.187%;
@@ -1565,7 +1635,7 @@ footer {
 .texts p {
     margin: 0;
     color: #4B6C97;
-    font-family: Titillium Web;
+    font-family: Poppins;
     font-size: 16px;
     font-weight: 700;
     line-height: 172.187%;
@@ -1612,7 +1682,7 @@ footer {
 
 .left_heading h2 {
     color: #FFF;
-    font-family: Titillium Web;
+    font-family: Poppins;
     font-size: 36px;
     font-weight: 700;
     line-height: normal;
@@ -1754,3 +1824,19 @@ footer {
 }
 
 /* blog section */
+
+
+
+/* QR code  */
+.qr_heading h2 {
+    color: #448C7F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/* QR code  */

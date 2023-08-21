@@ -55,7 +55,7 @@
                         <div class="row">
                             <div class="col-md-10 m-auto">
                                 <div class="why-choose">
-                                    <h2>Reasons to choose us !</h2>
+                                    <h2> <span>Reasons to</span> choose us !</h2>
                                 </div>
                             </div>
                         </div>
@@ -63,8 +63,8 @@
                     </div>
                 </div>
                 <div class="container py-3">
-                    <div class="row py-md-5 py-4 align-items-center">
-                        <div class="col-md-7 order-lg-0 order-1">
+                    <div class="row py-md-5 py-4 align-items-center justify-content-between">
+                        <div class="col-md-6 order-lg-0 order-1">
                             <div class="why-1-content">
                                 <ul class="p-0 list-unstyled">
                                     <li> <span>1.</span> A caring team of specialists
@@ -78,18 +78,16 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-1"></div>
-                        <div class="col-md-4 order-lg-1 order-0 mb-4 mb-lg-0">
+                        <div class="col-md-5 order-lg-1 order-0 mb-4 mb-lg-0">
                             <img src="assets/img/why-1.png" alt="" class="img-fluid">
                         </div>
                     </div>
                     <!-- why - 2 -->
-                    <div class="row py-md-5 py-4 align-items-center">
-                        <div class="col-md-4 order-lg-1 order-0 mb-4 mb-lg-0">
+                    <div class="row py-md-5 py-4 align-items-center justify-content-between">
+                        <div class="col-md-5 order-lg-1 order-0 mb-4 mb-lg-0">
                             <img src="assets/img/why-2.png" alt="" class="img-fluid">
                         </div>
-                        <div class="col-md-1"></div>
-                        <div class="col-md-7 order-lg-1 order-0">
+                        <div class="col-md-6 order-lg-1 order-0">
                             <div class="why-1-content">
                                 <ul class="p-0 list-unstyled">
                                     <li> <span>6. </span> Flexible Timings
@@ -114,7 +112,7 @@
             <!-- plan section start -->
             <section class="plan_section_2">
                 <div class="">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="650" viewBox="0 0 1728 760" fill="none"
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1728 760" fill="none"
                         class="position-relative">
                         <path
                             d="M589.5 59.6672C359.999 13.1271 68.5 27.1672 -54 59.6672V759.667H1732C1769.67 479.334 1822.4 -63.8327 1732 6.16726C1619 93.6673 924 127.5 589.5 59.6672Z"
@@ -135,6 +133,9 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="selection_content">
+                                        <div class="plan_titlee">
+                                            <h2>Exceptional Care <span>with Unmatched</span> Expertise</h2>
+                                        </div>
                                         <div class="plan_heading">
                                             <h2>Get an oral plan for you &amp; your family by
                                                 becoming member of Braces Faces

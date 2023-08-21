@@ -25,7 +25,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="common_hero_heading">
-                                <h2>News Update</h2>
+                                <h2>Blogs & News Update</h2>
                                 <p>Best, highly qualified clinicians who understand dentistry with holistic approach
                                 </p>
                                 <!-- <div class="book_btn_for_service_page">
@@ -146,7 +146,7 @@
                                     </p>
 
                                     <div class="img">
-                                        <img src="assets/img/r_blog.png" alt="" class="img-fluid">
+                                        <img src="assets/img/bv-1.png" alt="" class="img-fluid">
                                     </div>
                                     <br>
                                     <br>

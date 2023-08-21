@@ -25,7 +25,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="common_hero_heading">
-                                <h2>blog</h2>
+                                <h2>The blog</h2>
                                 <p>Best, highly qualified clinicians who understand dentistry with holistic approach
                                 </p>
                             </div>
@@ -193,13 +193,16 @@
                                             <h3>FOLLOW US ON SOCIAL </h3>
                                         </div>
                                         <div class="social_icon">
-                                            <a href="https://instagram.com/braces_and_faces_?igshid=MzRlODBiNWFlZA==" target="_blank">
+                                            <a href="https://instagram.com/braces_and_faces_?igshid=MzRlODBiNWFlZA=="
+                                                target="_blank">
                                                 <i class="fa-brands fa-instagram" style="color: #39CABB;"></i>
                                             </a>
-                                            <a href="https://www.youtube.com/channel/UCqATnerrYP0cncgMW69MF8Q" target="_blank">
+                                            <a href="https://www.youtube.com/channel/UCqATnerrYP0cncgMW69MF8Q"
+                                                target="_blank">
                                                 <i class="fa-brands fa-youtube" style="color: #39CABB;"></i>
                                             </a>
-                                            <a href="https://www.linkedin.com/in/dr-shubhangi-sangvikar-3168a590" target="_blank">
+                                            <a href="https://www.linkedin.com/in/dr-shubhangi-sangvikar-3168a590"
+                                                target="_blank">
                                                 <i class="fa-brands fa-linkedin" style="color: #39CABB;"></i>
                                             </a>
                                         </div>
@@ -213,7 +216,7 @@
                             <div class="col-md-8 border-0">
                                 <div class="row py-md-5 py-2">
                                     <div class="col-md-4">
-                                        <img src="assets/img/blog-list.png" alt="" class="img-fluid">
+                                        <img src="assets/img/bd-1.png" alt="" class="img-fluid">
                                     </div>
                                     <div class="col-md-8">
                                         <div class="blog_row">
@@ -245,7 +248,7 @@
 
                                 <div class="row py-md-5 py-2">
                                     <div class="col-md-4">
-                                        <img src="assets/img/blog-list.png" alt="" class="img-fluid">
+                                        <img src="assets/img/bd-2.png" alt="" class="img-fluid">
                                     </div>
                                     <div class="col-md-8">
                                         <div class="blog_row">
@@ -277,7 +280,7 @@
 
                                 <div class="row py-md-5 py-2">
                                     <div class="col-md-4">
-                                        <img src="assets/img/blog-list.png" alt="" class="img-fluid">
+                                        <img src="assets/img/bd-3.png" alt="" class="img-fluid">
                                     </div>
                                     <div class="col-md-8">
                                         <div class="blog_row">
@@ -309,7 +312,7 @@
 
                                 <div class="row py-md-5 py-2">
                                     <div class="col-md-4">
-                                        <img src="assets/img/blog-list.png" alt="" class="img-fluid">
+                                        <img src="assets/img/bd-4.png" alt="" class="img-fluid">
                                     </div>
                                     <div class="col-md-8">
                                         <div class="blog_row">
@@ -341,7 +344,7 @@
 
                                 <div class="row py-md-5 py-2">
                                     <div class="col-md-4">
-                                        <img src="assets/img/blog-list.png" alt="" class="img-fluid">
+                                        <img src="assets/img/bd-5.png" alt="" class="img-fluid">
                                     </div>
                                     <div class="col-md-8">
                                         <div class="blog_row">
@@ -373,7 +376,7 @@
 
                                 <div class="row py-md-5 py-2">
                                     <div class="col-md-4">
-                                        <img src="assets/img/blog-list.png" alt="" class="img-fluid">
+                                        <img src="assets/img/bd-6.png" alt="" class="img-fluid">
                                     </div>
                                     <div class="col-md-8">
                                         <div class="blog_row">
@@ -407,7 +410,7 @@
 
                                 <div class="row py-md-5 py-2">
                                     <div class="col-md-4">
-                                        <img src="assets/img/blog-list.png" alt="" class="img-fluid">
+                                        <img src="assets/img/bd-7.png" alt="" class="img-fluid">
                                     </div>
                                     <div class="col-md-8">
                                         <div class="blog_row">
@@ -438,37 +441,6 @@
 
                                 <!--  -->
 
-                                <div class="row py-md-5 py-2">
-                                    <div class="col-md-4">
-                                        <img src="assets/img/blog-list.png" alt="" class="img-fluid">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="blog_row">
-                                            <div class="b_l_heading">
-                                                <h5>Category Name</h5>
-                                            </div>
-                                            <div class="b_l_sheading">
-                                                <h2>Blog & News Update</h2>
-                                            </div>
-                                            <div class="b_l_para">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-                                                    minus, neque
-                                                    fugit laborum placeat quo magni inventore, facere, sunt sint minima
-                                                    aliquam
-                                                    quod
-                                                    iste accusantium! Odit animi minus aut molestias provident
-                                                    doloremque
-                                                    suscipit
-                                                    voluptas iusto illo quidem. Voluptas, corrupti cumque! &nbsp; <a
-                                                        href="#" style="color: #448C7F; font-weight:600;">Read More</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--  -->
 
 
 
