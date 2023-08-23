@@ -547,14 +547,11 @@
     line-height: 75px;
 }
 
-.youtube_video iframe {
-    border: 5px solid #448C7F;
-    padding: 0;
+.youtube_video .item {
     width: 100%;
-    height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 8px;
 }
 
 

@@ -23,7 +23,8 @@
         <!-- hero section start -->
         <section class="hero_section">
             <div class="hero_video">
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1cNlQ5q5XBM"
+                <iframe width="100%" height="100%"
+                    src="https://www.youtube.com/embed/1cNlQ5q5XBM?autoplay=1&controls=0&loop=1&rel=0&showinfo=0"
                     title="Welcome to Braces &amp; Faces Super speciality Dental Care" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
@@ -398,7 +399,7 @@
 
         <!-- Plan section start -->
         <section class="plan_section">
-            <div class="">
+            <div class="plan_container">
                 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="650" viewBox="0 0 1728 760" fill="none"
                     class="position-relative">
                     <path
@@ -800,11 +801,46 @@
                                     <h2>our happy patients words</h2>
                                 </div>
                             </div>
-                            <div class="youtube_video">
-                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1cNlQ5q5XBM"
-                                    title="Welcome to Braces &amp; Faces Super speciality Dental Care" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowfullscreen></iframe>
+                            <div class="customer-slide youtube_video">
+                                <div class="owl-carousel owl-theme owl-loaded owl-drag" id="video">
+
+                                    <div class="owl-stage-outer">
+                                        <div class="owl-stage"
+                                            style="transform: translate3d(-6530px, 0px, 0px); transition: all 0.25s ease 0s; width: 14366px;">
+
+                                            <div class="owl-item" style="width: 1296px; margin-right: 10px;">
+                                                <div class="item">
+                                                    <iframe width="100%" height="100%"
+                                                        src="https://www.youtube.com/embed/1MUaziLI2rU"
+                                                        title="Patients Experiences at Braces &amp; Faces"
+                                                        frameborder="0"
+                                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                        allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                            <div class="owl-item" style="width: 1296px; margin-right: 10px;">
+                                                <div class="item">
+                                                    <iframe width="100%" height="100%"
+                                                        src="https://www.youtube.com/embed/PDk9zhezJT4"
+                                                        title="Palatally placed tooth extraction for Orthodontic treatment !!!"
+                                                        frameborder="0"
+                                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                        allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                            <div class="owl-item" style="width: 1296px; margin-right: 10px;">
+                                                <div class="item">
+                                                    <iframe width="100%" height="100%"
+                                                        src="https://www.youtube.com/embed/6iAPw7hthQA"
+                                                        title="Do You have gaps in your teeth ? #dentist #braces #dentalcare #smilecare"
+                                                        frameborder="0"
+                                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                        allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1046,6 +1082,22 @@
                     },
                     1000: {
                         items: 1,
+                    },
+                },
+            });
+            $("#video").owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    600: {
+                        items: 2,
+                    },
+                    1000: {
+                        items: 3,
                     },
                 },
             });
