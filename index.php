@@ -24,8 +24,8 @@
         <section class="hero_section">
             <div class="hero_video">
                 <iframe width="100%" height="100%"
-                    src="https://www.youtube.com/embed/1cNlQ5q5XBM?autoplay=1&controls=0&loop=1&rel=0&showinfo=0"
-                    title="Welcome to Braces &amp; Faces Super speciality Dental Care" frameborder="0"
+                    src="https://www.youtube.com/embed/1cNlQ5q5XBM?autoplay=0&controls=0&loop=1&rel=0&showinfo=0"
+                    title="" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
             </div>
@@ -41,9 +41,9 @@
         <section style="background: url(./assets/img/about-bg.png) no-repeat center center / cover;">
             <div class="container py-lg-5 py-4">
                 <div class="row justify-content-between">
-                    <div class="col-md-7 order-1 order-lg-0" data-aos="fade-up-left">
+                    <div class="col-md-7 order-1 order-lg-0">
                         <div class="about_content">
-                            <div class="about_heading">
+                            <div class="about_heading d-lg-block d-md-block d-none">
                                 <h2>Best, highly qualified clinicians who <span>understand dentistry</span> with
                                     holistic approach
                                     for <span>utmost care of each </span> & every patient</h2>
@@ -66,17 +66,21 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 order-0 order-lg-1 mb-4 mb-lg-0" data-aos="fade-up-right">
+                    <div class="col-md-4 order-0 order-lg-1 mb-4 mb-lg-0">
+                        <div class="about_heading d-lg-none d-md-none d-block">
+                            <h2>Best, highly qualified clinicians who <span>understand dentistry</span> with
+                                holistic approach
+                                for <span>utmost care of each </span> & every patient</h2>
+                        </div>
                         <img src="assets/img/about_us.png" alt="" class="img-fluid">
                     </div>
                 </div>
 
                 <div class="row mt-5 justify-content-between">
-                    <div class="col-md-7 order-0 order-lg-1" data-aos="fade-up-left">
+                    <div class="col-md-7 order-1 order-lg-1">
                         <div class="about_content">
-                            <div class="about_heading">
+                            <div class="about_heading d-lg-block d-md-block d-none">
                                 <h2>top <span>1% oral</span> & maxillofacial surgeon in india
-
                             </div>
                             <div class="about_para">
                                 <p>Dr Satyajit passed is under graduation from CSMSS dental college Sambhaji Nagar & PG
@@ -92,7 +96,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 order-1 order-lg-0 mb-4 mb-lg-0" data-aos="fade-up-right">
+                    <div class="col-md-4 order-0 order-lg-0 mb-4 mb-lg-0">
+                        <div class="about_heading d-lg-none d-md-none d-block">
+                            <h2>top <span>1% oral</span> & maxillofacial surgeon in india
+                        </div>
                         <img src="assets/img/about_us_2.png" alt="" class="img-fluid">
                     </div>
                 </div>
@@ -102,7 +109,7 @@
             <section>
                 <div style="background: linear-gradient(0deg, #39cabb33, #39cabb0a);" class="extra_padding">
                     <div class="container py-md-5 py-2">
-                        <div class="row" data-aos="fade-up">
+                        <div class="row">
                             <div class="col-md-10 mx-auto my-md-5 my-2">
                                 <div class="service_heading">
                                     <h2>We have specialists for every segment of dentistry</h2>
@@ -113,7 +120,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row pb-md-5" data-aos="fade-right">
+                        <div class="row pb-md-5">
 
                             <div class="col-md-4">
                                 <div class="service_bx rounded position-relative">
@@ -186,7 +193,7 @@
 
                         </div>
                         <!-- section row -->
-                        <div class="row py-md-5" data-aos="fade-left">
+                        <div class="row py-md-5">
 
                             <div class="col-md-4">
                                 <div class="service_bx rounded position-relative">
@@ -221,22 +228,20 @@
                                             <h2>cosmetic dentistry</h2>
                                         </div>
                                         <div class="s-Para">
-                                            <p>Cosmetic dentistry is generally used to refer to any dental work that
-                                                improves the appearance (though not necessarily the functionality) of
-                                                teeth, gums and/or bite. It primarily focuses on improvement in dental
-                                                aesthetics in color, position, shape, size, alignment and overall smile
-                                                appearance.Many dentists refer to themselves as "cosmetic dentists"
-                                                regardless of their specific education, specialty, training, and
-                                                experience in this field. &nbsp;<a href="cosmetic.php"
-                                                    style="color: #448C7F; font-weight:600;">Read More &nbsp; <i
-                                                        class="fa-solid fa-arrow-right"></i></a>
+                                            <p>Cosmetic dentistry focuses on enhancing the appearance of teeth, gums,
+                                                and smiles. It encompasses procedures like teeth whitening, veneers,
+                                                dental implants, and orthodontic treatments. By improving alignment,
+                                                color, shape, and overall aesthetics, cosmetic dentistry helps
+                                                individuals achieve a more confident and attractive smile. &nbsp;<a
+                                                    href="cosmetic.php" style="color: #448C7F; font-weight:600;">Read
+                                                    More &nbsp; <i class="fa-solid fa-arrow-right"></i></a>
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-md-4">
+                            <div class="col-md-4" id="ed">
                                 <div class="service_bx rounded position-relative">
                                     <div class="service_img">
                                         <img src="assets/img/Emergency.png" alt="" class="img-fluid">
@@ -259,7 +264,7 @@
                             </div>
                         </div>
 
-                        <div class="row py-md-5" data-aos="fade-left">
+                        <div class="row py-md-5">
 
                             <div class="col-md-4">
                                 <div class="service_bx rounded position-relative">
@@ -284,7 +289,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4">
+                            <div class="col-md-4" id="ot">
                                 <div class="service_bx rounded position-relative">
                                     <div class="service_img">
                                         <img src="assets/img/Orthodontic.png" alt="" class="img-fluid">
@@ -308,7 +313,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4">
+                            <div class="col-md-4" id="gn">
                                 <div class="service_bx rounded position-relative">
                                     <div class="service_img">
                                         <img src="assets/img/general.png" alt="" class="img-fluid">
@@ -334,7 +339,7 @@
                             </div>
                         </div>
 
-                        <div class="row py-md-5" data-aos="fade-left">
+                        <div class="row py-md-5">
 
                             <div class="col-md-4">
                                 <div class="service_bx rounded position-relative">
@@ -413,7 +418,7 @@
                         </linearGradient>
                     </defs>
                 </svg>
-                <div class="plan_content" data-aos="fade-right">
+                <div class="plan_content">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6">
@@ -429,9 +434,8 @@
                                             becoming member of Braces Faces
                                             Superspeciality Dental Care.</h2>
                                     </div>
-                                    <div class="plan_selection">
+                                    <!-- <div class="plan_selection">
                                         <div class="select">
-                                            <!-- <i class="fa-solid fa-angle-down" style="color: #ffffff;"></i> -->
                                             <select>
                                                 <option selected>Select Your Plan</option>
                                                 <option value="2">Smile Makeover</option>
@@ -442,9 +446,9 @@
                                                 <option value="3">Skin Rejuvenation </option>
                                             </select>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="dent_btn">
-                                        <a href="contact.php">Book an appointment</a>
+                                        <a href="assets/img/plan.pdf" download>Download the Plan</a>
                                     </div>
                                 </div>
                             </div>
@@ -466,7 +470,7 @@
                                 <h2>What Our Patients Say About Us !</h2>
                             </div>
                         </div>
-                        <div class="col-md-12" data-aos="zoom-in">
+                        <div class="col-md-12">
                             <div class="customer-slide">
                                 <div class="owl-carousel owl-theme owl-loaded owl-drag" id="review">
 
@@ -790,65 +794,57 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <!-- Testimonial  section end -->
 
-            <!-- youtube video section start -->
-            <section class="video_section">
-                <div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-8 m-auto">
-                                <div class="video_heading">
-                                    <h2>our happy patients words</h2>
+        <!-- youtube video section start -->
+        <section class="video_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 m-auto">
+                        <div class="video_heading">
+                            <h2>our happy patients words</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-11 m-auto">
+                        <div class="client-slide youtube_video">
+                            <div class="owl-carousel owl-theme" id="video">
+                                <div class="item">
+                                    <div class="client-image">
+                                        <iframe width="100%" height="100%"
+                                            src="https://www.youtube.com/embed/1MUaziLI2rU"
+                                            title="Patients Experiences at Braces &amp; Faces" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            allowfullscreen></iframe>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="customer-slide youtube_video">
-                                <div class="owl-carousel owl-theme owl-loaded owl-drag" id="video">
-
-                                    <div class="owl-stage-outer">
-                                        <div class="owl-stage"
-                                            style="transform: translate3d(-6530px, 0px, 0px); transition: all 0.25s ease 0s; width: 14366px;">
-
-                                            <div class="owl-item" style="width: 1296px; margin-right: 10px;">
-                                                <div class="item">
-                                                    <iframe width="100%" height="100%"
-                                                        src="https://www.youtube.com/embed/1MUaziLI2rU"
-                                                        title="Patients Experiences at Braces &amp; Faces"
-                                                        frameborder="0"
-                                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                        allowfullscreen></iframe>
-                                                </div>
-                                            </div>
-                                            <div class="owl-item" style="width: 1296px; margin-right: 10px;">
-                                                <div class="item">
-                                                    <iframe width="100%" height="100%"
-                                                        src="https://www.youtube.com/embed/PDk9zhezJT4"
-                                                        title="Palatally placed tooth extraction for Orthodontic treatment !!!"
-                                                        frameborder="0"
-                                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                        allowfullscreen></iframe>
-                                                </div>
-                                            </div>
-                                            <div class="owl-item" style="width: 1296px; margin-right: 10px;">
-                                                <div class="item">
-                                                    <iframe width="100%" height="100%"
-                                                        src="https://www.youtube.com/embed/6iAPw7hthQA"
-                                                        title="Do You have gaps in your teeth ? #dentist #braces #dentalcare #smilecare"
-                                                        frameborder="0"
-                                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                                        allowfullscreen></iframe>
-                                                </div>
-                                            </div>
-                                        </div>
+                                <div class="item">
+                                    <div class="client-image">
+                                        <iframe width="100%" height="100%"
+                                            src="https://www.youtube.com/embed/PDk9zhezJT4"
+                                            title="Palatally placed tooth extraction for Orthodontic treatment !!!"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="client-image">
+                                        <iframe width="100%" height="100%"
+                                            src="https://www.youtube.com/embed/6iAPw7hthQA"
+                                            title="Do You have gaps in your teeth ? #dentist #braces #dentalcare #smilecare"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- youtube video section end -->
+            </div>
         </section>
-        <!-- Testimonial  section end -->
+        <!-- youtube video section end -->
 
         <!--  our clinic section start -->
         <section>
@@ -1104,9 +1100,9 @@
         </script>
 
         <!-- AOS Animation -->
-        <script>
+        <!-- <script>
             AOS.init();
-        </script>
+        </script> -->
     </body>
 
 </html>

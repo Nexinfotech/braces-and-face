@@ -143,22 +143,20 @@
                     <div class="mission">
                         <div class="mission_content">
                             <h2>our mission</h2>
-                            <p>One of the most trusted travel group providing best services
-                                with to its clients since decades. Our director’s lorem ipsum
-                                a sons of Maxim’s on founder lorem ipsum, are running these companies.lorem ipsum and i
-                                and glow is offering personalised
-                                services at every step, as not only one a travel agency but also for exclusive.founder
-                                lorem ipsum.</p>
+                            <p>At Braces & Faces Superspeciality Dental Clinic, our mission is to transform smiles and
+                                enhance lives through exceptional dental care. With a steadfast commitment to oral
+                                health and overall well-being, we strive to provide a welcoming and comfortable
+                                environment where patients of all ages can receive personalized, compassionate, and
+                                state-of-the-art dental treatments.</p>
                         </div>
                     </div>
                     <div class="vision">
                         <div class="vision_content">
                             <h2>Our Vision</h2>
-                            <p>One of the most trusted travel group providing best services
-                                with to its clients since decades. Our director’s lorem ipsum
-                                a sons of Maxim’s on founder lorem ipsum, are running these companies.lorem ipsum and i
-                                and glow is offering personalised
-                                services at every step, as not only one a travel agency.</p>
+                            <p>At Braces & Faces Superspeciality Dental Clinic, our vision is to be the beacon of
+                                exceptional dental care and innovation, setting new standards for oral health and
+                                patient experience. As we journey forward, we aspire to become a renowned and trusted
+                                destination where cutting-edge dentistry meets unparalleled patient satisfaction.</p>
                         </div>
                     </div>
                 </div>
@@ -172,7 +170,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="client-review meetour">
-                                    <h2> met our team </h2>
+                                    <h2> meet our team </h2>
 
                                     <div class="client-slide">
                                         <div class="owl-carousel owl-theme owl-loaded owl-drag" id="carouselmeet">

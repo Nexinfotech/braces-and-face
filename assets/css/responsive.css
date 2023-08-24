@@ -1585,7 +1585,14 @@
 
     .hero_video {
         width: 100%;
-        height: 100vh;
+        height: 280px;
+        padding: 0.5rem;
+    }
+
+    .hero_video .ytp-title-link {
+        display: none;
+        text-overflow: ellipsis;
+        overflow: hidden;
     }
 
     .achieve .border {
@@ -1662,7 +1669,7 @@
     }
 
     .plan_titlee h2 {
-        color: #41cbbe;
+        color: #ffffff;
         text-align: center;
         font-family: Poppins;
         font-size: 17px;
@@ -1671,7 +1678,7 @@
         line-height: normal;
         text-transform: capitalize;
         margin-bottom: 0rem;
-        padding: 1rem 0rem;
+        padding: 2rem 0rem;
     }
 
     .plan_titlee h2 span {
@@ -1699,7 +1706,7 @@
         font-size: 1.5rem;
         font-style: normal;
         font-weight: 700;
-        line-height: 26px;
+        line-height: 30px;
         text-transform: capitalize;
     }
 
@@ -1714,7 +1721,7 @@
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        height: 400px;
+        height: 460px;
         margin-bottom: 5rem;
     }
 
@@ -1801,7 +1808,7 @@
     }
 
     .dent_btn {
-        margin-top: 1rem;
+        margin-top: 0rem;
         border-radius: 46.5px;
         background: var(--theme-color);
         padding: 10px 10px;
@@ -2636,6 +2643,17 @@
         margin: 5px 0px 5px 0px;
     }
 
+    .service_section_heading h2 span {
+        color: #448C7F;
+        text-align: center;
+        font-family: Rufina;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 85px;
+        text-transform: capitalize;
+        margin: 5px 0px 5px 0px;
+    }
+
     .chsc_heading h2 {
         color: #448C7F;
         font-family: Titillium Web;
@@ -2776,6 +2794,10 @@
         height: 280px;
         overflow: hidden;
         border-radius: 8px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .youtube_video iframe {
@@ -2790,5 +2812,96 @@
 
     .partner_card.pad {
         padding: 10px 20px;
+    }
+
+    .youtube_video .client-image {
+        width: 250px;
+    }
+
+    .youtube_video .owl-carousel .owl-nav button.owl-prev {
+        left: -14px;
+    }
+
+    .youtube_video .owl-carousel .owl-nav button.owl-next {
+        right: -14px;
+    }
+
+    .youtube_video .client-slide .owl-theme .owl-nav,
+    .happy-customer .customer-slide .owl-theme .owl-nav {
+        display: block !important;
+    }
+
+    .client-review .owl-theme .owl-dots .owl-dot span,
+    .client-slide .owl-theme .owl-dots .owl-dot span {
+        width: 12px;
+        height: 4px;
+        margin: 5px 7px;
+        background: #D8D8D8;
+        display: block;
+        -webkit-backface-visibility: visible;
+        transition: opacity .2s ease;
+        border-radius: 30px;
+    }
+
+    .qr_heading h2 {
+        color: #448C7F;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+    /* nav bar */
+
+    .nav_bg .offcanvas-header {
+        background: #39cabb8f;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #000;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+    .navBarLinks {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .navBarLinks a {
+        color: #39cabb;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: capitalize;
+        width: 100%;
+        border-bottom: 1px solid #39cabb;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .contact_btn {
+        border-radius: 6px;
+        background: #ffffff;
+        padding: 0px 0px;
+        margin-left: 0rem;
+        color: #39cabb;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: capitalize;
     }
 }

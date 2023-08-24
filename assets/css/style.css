@@ -114,7 +114,7 @@
     height: 50px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .header_time,
@@ -434,7 +434,7 @@
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
     padding: 2rem 0rem;
 }
 
@@ -552,6 +552,36 @@
     height: 400px;
     overflow: hidden;
     border-radius: 8px;
+}
+
+.youtube_video .client-image {
+    border-radius: 7px;
+    min-height: 250px;
+    display: flex;
+    width: 100%;
+}
+
+.youtube_video .client-slide .owl-carousel .owl-nav button.owl-prev,
+.youtube_video .client-slide .owl-carousel .owl-nav button.owl-next {
+    background: 0 0;
+    color: #fff;
+    border: none;
+    padding: 2px 10px 5px 10px !important;
+    font: inherit;
+    position: absolute;
+    top: 42%;
+    font-size: 40px;
+    line-height: 30px;
+}
+
+
+
+.youtube_video .client-slide .owl-carousel .owl-nav button.owl-prev {
+    left: -55px;
+}
+
+.youtube_video .client-slide .owl-carousel .owl-nav button.owl-next {
+    right: -55px;
 }
 
 
@@ -1787,6 +1817,13 @@ footer {
     background: #39cabb;
 }
 
+.navBarLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
 /* blog section */
 
 .blog_s {
@@ -1837,3 +1874,12 @@ footer {
 }
 
 /* QR code  */
+
+/* nav bar */
+
+.nav-link.active {
+    color: #39cabb !important;
+}
+
+
+/* nav bar */

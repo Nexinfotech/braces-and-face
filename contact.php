@@ -59,7 +59,8 @@
                                         <h2>Contact us</h2>
                                         <p>Let us know how we can help you.</p>
                                     </div>
-                                    <div class="left_num"> Call us at <a href="tel:+919516285162">+91 9516285162</a></div>
+                                    <div class="left_num"> Call us at <a href="tel:+919516285162">+91 9516285162</a>
+                                    </div>
                                 </div>
                                 <div class="right">
                                     <div class="contact_form">
@@ -91,11 +92,25 @@
                                                     placeholder="Your Age" />
                                             </div>
                                             <div class="col-md-12">
-                                                <label for="condition" class="form-label">Current condition *</label>
-                                                <select id="condition" class="form-select" name="condition">
-                                                    <option selected>Eg : over bite etc</option>
-                                                    <option>Male</option>
-                                                    <option>Female</option>
+                                                <label for="treatment" class="form-label">Treatment *</label>
+                                                <select id="treatment" class="form-select" name="treatment">
+                                                    <option selected>Eg : Root Implant etc</option>
+                                                    <option value="Root Canal Treatment &amp; Re-Root Canal Treatment">
+                                                        Root Canal Treatment &amp; Re-Root Canal Treatment</option>
+                                                    <option value="Dental Restoration">Dental Restoration</option>
+                                                    <option value="Laser Dentistry">Laser Dentistry</option>
+                                                    <option value="Dental Implant">Dental Implant</option>
+                                                    <option value="Smile Designing">Smile Designing</option>
+                                                    <option value="Braces/Aligners">Braces/Aligners</option>
+                                                    <option value="Fillings &amp; Missing Teeth (Crowns)">Fillings &amp;
+                                                        Missing Teeth (Crowns)</option>
+                                                    <option value="Denture (TD &amp; RPD)">Denture (TD &amp; RPD)
+                                                    </option>
+                                                    <option value="Extraction">Extraction</option>
+                                                    <option value="Teeth Whitening">Teeth Whitening</option>
+                                                    <option value="Treatment of Maxillofacial Trauma">Treatment of
+                                                        Maxillofacial Trauma</option>
+                                                    <option value="Veneers">Veneers</option>
                                                 </select>
                                             </div>
 

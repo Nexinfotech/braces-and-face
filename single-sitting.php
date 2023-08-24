@@ -160,6 +160,22 @@
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <div class="owl-item "
+                                                        style="width: 425.333px; margin-right: 10px;">
+                                                        <div class="item">
+                                                            <div class="client-image">
+                                                                <img src="assets/img/teeth/sba-4.jpeg" class="img-fluid">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item "
+                                                        style="width: 425.333px; margin-right: 10px;">
+                                                        <div class="item">
+                                                            <div class="client-image">
+                                                                <img src="assets/img/teeth/sba-5.jpeg" class="img-fluid">
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

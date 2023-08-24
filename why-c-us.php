@@ -141,18 +141,8 @@
                                                 becoming member of Braces Faces
                                                 Superspeciality Dental Care.</h2>
                                         </div>
-                                        <div class="plan_selection">
-                                            <div class="select">
-                                                <!-- <i class="fa-solid fa-angle-down" style="color: #ffffff;"></i> -->
-                                                <select>
-                                                    <option value="1" selected="">Select Your Plan</option>
-                                                    <option value="2">No JS</option>
-                                                    <option value="3">Nice!</option>
-                                                </select>
-                                            </div>
-                                        </div>
                                         <div class="dent_btn">
-                                            <a href="contact.php">Book an appointment</a>
+                                        <a href="assets/img/plan.pdf" download>Download the Plan</a>
                                         </div>
                                     </div>
                                 </div>

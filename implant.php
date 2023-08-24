@@ -101,8 +101,9 @@
                         <div class="row align-items-center">
                             <div class="col-md-9 order-1 order-lg-0 order-md-0">
                                 <div class="common_heading">
-                                    <h2>At Impression Dental Care, <span>Dr.Satyajit</span> has placed more than 1000+ successful
-                                        implants with painless technique & latest equipment.</h2>
+                                    <h2>At Braces & Faces Superspeciality Dental Care, <span>Dr. Satyajit</span> Has
+                                        Successfully Placed More Than 15,000+ Dental Implant With Painless Technique &
+                                        Latest Equipment.</h2>
                                     <p>Contact us to schedule an initial assessment session.</p>
                                     <div class="appointment_btn">
                                         <a href="contact.php">Book an appointment</a>
@@ -161,6 +162,30 @@
                                                         <div class="item">
                                                             <div class="client-image">
                                                                 <img src="assets/img/teeth/dba-3.png" class="img-fluid">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item "
+                                                        style="width: 425.333px; margin-right: 10px;">
+                                                        <div class="item">
+                                                            <div class="client-image">
+                                                                <img src="assets/img/teeth/mba-5.png" class="img-fluid">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item "
+                                                        style="width: 425.333px; margin-right: 10px;">
+                                                        <div class="item">
+                                                            <div class="client-image">
+                                                                <img src="assets/img/teeth/mba-6.png" class="img-fluid">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="owl-item "
+                                                        style="width: 425.333px; margin-right: 10px;">
+                                                        <div class="item">
+                                                            <div class="client-image">
+                                                                <img src="assets/img/teeth/mba-4.png" class="img-fluid">
                                                             </div>
                                                         </div>
                                                     </div>

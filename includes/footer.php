@@ -44,13 +44,11 @@
                     <div class="Footer_links">
                         <h2>Treatments</h2>
                         <ul>
-                            <li><a href="/invisalign.php"> Invisalign </a></li>
-                            <li><a href="/implant.php"> Dental Implants </a></li>
-                            <li><a href="/General Dentistry"> General Dentistry </a></li>
-                            <li><a href="/mouth-re.php"> Emergency Dentist </a></li>
-                            <li><a href="/whitening.php"> Teeth Whitening </a></li>
-                            <li><a href="/cosmetic.php"> Cosmetic Dentistry </a></li>
-                            <li><a href="/single-sitting.php"> Single Sitting ( RCT ) </a></li>
+                            <li><a href="invisalign.php"> Invisalign </a></li>
+                            <li><a href="implant.php"> Dental Implants </a></li>
+                            <li><a href="whitening.php"> Teeth Whitening </a></li>
+                            <li><a href="cosmetic.php"> Cosmetic Dentistry </a></li>
+                            <li><a href="single-sitting.php"> Single Sitting ( RCT ) </a></li>
                         </ul>
                     </div>
                 </div>
@@ -60,7 +58,8 @@
                         <h2>Location</h2>
                         <ul>
                             <li>
-                                <a href="javascript:void(0)"> <b>Address :</b> Commercial Complex, ROSE ICON, 3rd Floor , 301, Pimple
+                                <a href="javascript:void(0)"> <b>Address :</b> Commercial Complex, ROSE ICON, 3rd Floor
+                                    , 301, Pimple
                                     Saudagar, Pune, Maharashtra 411027
                                 </a>
                             </li>
@@ -69,7 +68,7 @@
                                 <a href="tel:+919011024599"> +91 9011024599 </a>
                                 <a href="tel:+919970988812"> +91 9970988812 </a>
                             </li>
-                            <li> 
+                            <li>
                                 <a href="javascript:void(0)"> <b>Time : </b> 09:00 A.M. To 05:00 P.M.
                                     SAT - SUN OFF
                                 </a>

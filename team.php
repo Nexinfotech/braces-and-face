@@ -143,21 +143,21 @@
                                 <div class="team_member">
                                     <h2>Our Experts</h2>
                                     <span class="member">
-                                        <p>Dr Shubhangi</p>
-                                        <p>mbbs , rct , london</p>
+                                        <p>Dr. Shubhangi wadje</p>
+                                        <p>(M.D.S & orthodontist)</p>
                                     </span>
                                     <span class="member">
-                                        <p>Dr Shubhangi</p>
-                                        <p>mbbs , rct , london</p>
+                                        <p>Dr. swapnil</p>
+                                        <p>(b.d.s & general dentist)</p>
                                     </span>
                                     <span class="member">
+                                        <p>Dr. satyajit wadje</p>
+                                        <p>(m.d.s & oral surgeon)</p>
+                                    </span>
+                                    <!-- <span class="member">
                                         <p>Dr Shubhangi</p>
                                         <p>mbbs , rct , london</p>
-                                    </span>
-                                    <span class="member">
-                                        <p>Dr Shubhangi</p>
-                                        <p>mbbs , rct , london</p>
-                                    </span>
+                                    </span> -->
                                 </div>
                             </div>
                         </div>
@@ -191,26 +191,18 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="selection_content">
+                                        <div class="plan_selection">
+                                            <div class="plan_titlee">
+                                                <h2>Exceptional Care <span>with Unmatched</span> Expertise</h2>
+                                            </div>
+                                        </div>
                                         <div class="plan_heading">
                                             <h2>Get an oral plan for you &amp; your family by
                                                 becoming member of Braces Faces
                                                 Superspeciality Dental Care.</h2>
                                         </div>
-                                        <div class="plan_selection">
-                                            <div class="plan_titlee">
-                                                <h2>Exceptional Care <span>with Unmatched</span> Expertise</h2>
-                                            </div>
-                                            <div class="select">
-                                                <!-- <i class="fa-solid fa-angle-down" style="color: #ffffff;"></i> -->
-                                                <select>
-                                                    <option value="1" selected="">Select Your Plan</option>
-                                                    <option value="2">No JS</option>
-                                                    <option value="3">Nice!</option>
-                                                </select>
-                                            </div>
-                                        </div>
                                         <div class="dent_btn">
-                                            <a href="contact.php">Book an appointment</a>
+                                            <a href="assets/img/plan.pdf" download>Download the Plan</a>
                                         </div>
                                     </div>
                                 </div>

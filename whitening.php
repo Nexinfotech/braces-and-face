@@ -100,9 +100,8 @@
                         <div class="row align-items-center">
                             <div class="col-md-9 order-1 order-lg-0 order-md-0">
                                 <div class="common_heading">
-                                    <h2>At Impression Dental Care, <span>Dr.Satyajit</span> has placed more than 1000+
-                                        successful
-                                        implants with painless technique & latest equipment.</h2>
+                                    <h2>at brace & faces superspeciality dental care, <span>dr. swapnil</span> has done more 22,000+
+                                        teeth whitening with hassle free technique.</h2>
                                     <p>Contact us to schedule an initial assessment session.</p>
                                     <div class="appointment_btn">
                                         <a href="contact.php">Book an appointment</a>
